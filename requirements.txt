@@ -1,0 +1,12 @@
+pytz
+tornado
+aiohttp
+boto3
+colorama
+dacite
+motor
+pillow
+pycryptodome
+pylint
+rich
+tqdm

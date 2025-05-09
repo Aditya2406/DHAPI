@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCL - Saba Ba Lar - BetCore TVBet - Test Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #pageStatus {
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+        }
+
+        #pageStatus div {
+            margin-left: 5px;
+        }
+
+        #pageStatus label {
+            display: block;
+        }
+
+        #tvbetContainer {
+            display: flex;
+            height: 100vh;
+        }
+
+        #tvbet-game {
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript" src="https://tvbetframe.com/assets/frame.js"></script>
+    <script>
+        (
+            function () {
+                new TvbetFrame(
+                    {
+                        lng: "fr",
+                        clientId: "{{ page_data['Data']['ClientId'] if 'Data' in page_data and 'ClientId' in page_data['Data'] else '-' }}",
+                        token: "{{ page_data['Data']['PlayerToken'] if 'Data' in page_data and 'PlayerToken' in page_data['Data']  else '-' }}",
+                        server: "{{ page_data['Data']['IFrameURL'] if 'Data' in page_data and 'IFrameURL' in page_data['Data']  else '-' }}",
+                        floatTop: "#fTop",
+                        containerId: "tvbet-game",
+                        // game_id: 9, // please use it for specific game launching and if you don't wanna launch the lobby. The 'Lobby' button will be displayed in the frame
+                        // singleGame: 9, // please use it for specific game launching and if you don't wanna launch the lobby. The 'Lobby' button will be hidden in the frame
+                        page: "lobby", // please use it if you want to launch the lobby. Use without the 'singleGame' parameter
+                        category: "LiveGames",
+                    }
+                );
+            }
+        )();
+    </script>
+</head>
+
+<body>
+    <div id="pageStatus">
+        <div>
+            <label>
+                Page Status : {{ page_data['ErrorMessage'] }}
+            </label>
+        </div>
+        <div>
+            <label>
+                Client Id : {{ page_data['Data']['ClientId'] if 'Data' in page_data and 'ClientId' in page_data['Data']else '-' }}
+            </label>
+            <label>
+                Player : {{ page_data['Data']['Player'] if 'Data' in page_data and 'Player' in page_data['Data'] else '-' }}
+            </label>
+            <label>
+                Player Token : {{ page_data['Data']['PlayerToken'] if 'Data' in page_data and 'PlayerToken' in page_data['Data'] else '-' }}
+            </label>
+        </div>
+    </div>
+    <div id="tvbetContainer">
+        <div id="tvbet-game"></div>
+    </div>
+</body>
+
+</html>

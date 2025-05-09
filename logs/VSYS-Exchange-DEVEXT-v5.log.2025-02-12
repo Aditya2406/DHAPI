@@ -1,0 +1,84 @@
+
+INFO # 2025-02-12 15:52:09,137 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-12 15:52:09,139 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-12 15:52:10,179 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-12 15:52:10,180 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-12 15:52:10,182 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-12 15:52:10,184 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-12 15:52:10,200 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-12 16:29:07,697 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-12 16:29:07,699 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-12 16:29:08,722 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-12 16:29:08,724 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-12 16:29:08,725 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-12 16:29:08,727 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-12 16:29:08,743 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-12 20:48:08,026 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-12 20:48:08,029 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-12 20:48:09,538 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-12 20:48:09,539 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-12 20:48:09,550 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-12 20:48:09,553 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-12 20:48:09,605 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-12 20:52:08,022 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-12 20:52:08,030 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-12 20:52:09,259 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-12 20:52:09,260 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-12 20:52:09,261 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-12 20:52:09,263 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-12 20:52:09,286 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-12 20:57:55,270 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-12 20:57:55,283 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-12 20:57:59,833 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-12 20:57:59,834 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-12 20:57:59,837 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-12 20:57:59,838 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-12 20:57:59,866 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-12 20:58:31,430 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-12 20:58:31,431 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-12 20:58:33,142 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-12 20:58:33,143 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-12 20:58:33,144 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-12 20:58:33,145 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-12 20:58:33,164 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started

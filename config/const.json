@@ -1,0 +1,10 @@
+{
+    "Application": {
+        "Title": "Cache SERVER",
+        "Version": "0.0.1",
+        "Environment": "TEST",
+        "SafeTitle": "Cache-EdgeServer",
+        "SubTitle": "Cache API Server",
+        "PublicPortal": "http://"
+    }
+}

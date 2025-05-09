@@ -1,0 +1,2159 @@
+
+INFO # 2025-01-24 18:27:52,281 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 18:27:52,283 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 18:27:53,468 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 18:27:53,472 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 18:27:53,475 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 18:27:53,477 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 18:27:53,513 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 18:31:30,744 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 18:31:32,363 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 18:31:32,366 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-24 18:31:39,218 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : LEO # 863 by 243851281438 on URETAIL
+NoneType: None
+
+INFO # 2025-01-24 18:31:47,863 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 18:31:49,253 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 18:31:52,311 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 3 Active Game Draws Found
+
+INFO # 2025-01-24 18:32:09,578 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 18:32:11,242 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 18:32:11,244 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-24 18:32:19,270 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+ERROR # 2025-01-24 18:32:19,272 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched
+
+INFO # 2025-01-24 18:32:21,173 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 67938f56293ebff3d1d3928a [DRAFT] Created Successfully
+
+INFO # 2025-01-24 18:32:21,175 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[67938f56293ebff3d1d3928a] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-24 18:32:28,928 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 18:32:30,390 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 18:32:30,392 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-24 18:32:36,960 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+ERROR # 2025-01-24 18:32:36,962 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched
+
+INFO # 2025-01-24 18:32:38,406 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 67938f69293ebff3d1d39292 [DRAFT] Created Successfully
+
+INFO # 2025-01-24 18:32:38,408 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[67938f69293ebff3d1d39292] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-24 18:36:15,210 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 18:36:16,732 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 18:36:16,735 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-24 18:36:23,057 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+ERROR # 2025-01-24 18:36:23,058 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : For Game Code LEO of Category Lotto LottoBalls are Missing
+NoneType: None
+
+INFO # 2025-01-24 18:36:58,898 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 18:37:00,341 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 18:37:00,343 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-24 18:37:06,508 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+ERROR # 2025-01-24 18:37:06,509 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched
+
+INFO # 2025-01-24 18:37:08,240 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 67939077293ebff3d1d392a2 [DRAFT] Created Successfully
+
+INFO # 2025-01-24 18:37:08,242 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[67939077293ebff3d1d392a2] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-24 18:49:05,187 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 18:49:05,189 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 18:49:06,745 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 18:49:06,747 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 18:49:06,748 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 18:49:06,750 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 18:49:06,798 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 18:49:25,775 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 18:49:25,776 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 18:49:27,355 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 18:49:27,356 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 18:49:27,357 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 18:49:27,358 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 18:49:27,376 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 18:49:41,102 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 18:49:42,906 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 18:49:42,909 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-24 18:49:53,441 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+ERROR # 2025-01-24 18:49:53,444 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched
+
+INFO # 2025-01-24 18:49:54,766 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 67939372df83868f611ba9e2 [DRAFT] Created Successfully
+
+INFO # 2025-01-24 18:49:54,767 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[67939372df83868f611ba9e2] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-24 18:50:53,726 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 18:50:53,730 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 18:50:55,220 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 18:50:55,222 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 18:50:55,224 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 18:50:55,226 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 18:50:55,287 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 18:51:02,818 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 18:51:04,325 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 18:51:04,332 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-24 18:51:10,499 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+INFO # 2025-01-24 18:51:41,344 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 18:51:41,348 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 18:51:42,700 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 18:51:42,702 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 18:51:42,704 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 18:51:42,706 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 18:51:42,793 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 18:51:42,833 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 18:51:44,261 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 18:51:44,389 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-24 18:51:50,915 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+ERROR # 2025-01-24 18:51:54,185 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : For Game Code LEO of Category Lotto LottoBalls should be less than 50
+NoneType: None
+
+INFO # 2025-01-24 18:54:58,703 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 18:54:58,705 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 18:55:00,167 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 18:55:00,168 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 18:55:00,170 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 18:55:00,174 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 18:55:00,238 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 18:55:17,919 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 18:55:20,638 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 18:55:20,641 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-24 18:55:29,116 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+ERROR # 2025-01-24 18:55:29,119 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : For Game Code LEO of Category Lotto LottoBalls should be less than 50
+NoneType: None
+
+INFO # 2025-01-24 18:56:35,627 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 18:56:35,639 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 18:56:37,316 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 18:56:37,318 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 18:56:37,321 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 18:56:37,323 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 18:56:37,383 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 18:56:43,631 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 18:56:43,634 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 18:56:45,528 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 18:56:45,529 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 18:56:45,531 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 18:56:45,532 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 18:56:45,587 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 18:56:52,542 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 18:56:54,095 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 18:56:54,098 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-24 18:57:00,042 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+ERROR # 2025-01-24 18:57:00,045 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : For Game Code LEO of Category Lotto LottoBalls should be in the range [0 - 50]
+NoneType: None
+
+INFO # 2025-01-24 19:09:07,229 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 19:09:07,230 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 19:09:08,740 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 19:09:08,742 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 19:09:08,743 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 19:09:08,745 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 19:09:08,801 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 19:09:16,056 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 19:09:18,591 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 19:09:18,595 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-24 19:09:25,524 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-24 19:09:25,526 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : For Game Code LEO of Category Lotto LottoBalls should be in the range [0 - 50]
+NoneType: None
+
+INFO # 2025-01-24 21:22:41,943 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 21:22:44,550 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 21:22:44,553 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-24 21:22:56,225 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-24 21:22:56,227 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-24 21:22:58,516 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6793b753e8739ea9b2c0aad4 [DRAFT] Created Successfully
+
+INFO # 2025-01-24 21:22:58,518 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6793b753e8739ea9b2c0aad4] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-24 21:23:22,752 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-24 21:23:25,547 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-24 21:23:25,549 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6793b753e8739ea9b2c0aad4 
+
+INFO # 2025-01-24 21:23:37,347 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : WITHDRAW FOR SALE REQUEST : 243724576420 : 6793b753e8739ea9b2c0aad4
+
+INFO # 2025-01-24 21:23:39,966 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724576420 : 6793b753e8739ea9b2c0aad4 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-24 21:23:39,968 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724576420 : 6793b753e8739ea9b2c0aad4 - WALLET TRANSACTION SUCCESSFUL
+
+INFO # 2025-01-24 21:23:40,298 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420
+
+INFO # 2025-01-24 21:23:42,797 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-24 21:23:42,798 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - CREDIT
+
+INFO # 2025-01-24 21:23:48,960 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6793b786e8739ea9b2c0aae5'), Created=datetime.datetime(2025, 1, 24, 15, 53, 42, 803153, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-24T16:53:42.803171+01:00', Updated=datetime.datetime(2025, 1, 24, 15, 53, 42, 803216, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-24T16:53:42.803222+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6793b783e8739ea9b2c0aae1\n- From: 243724576420\n- Ticket: 6793b753e8739ea9b2c0aad4\n- for: 243851281438\n- Amount: 2000.00\n- Time: 2025-01-24T16:53:39.207936+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6793b783e8739ea9b2c0aae1')), TargetId=ObjectId('6769f22d29abe35fbaa7706a'), TargetType=100, Actions='SUCCESSFULL')
+
+INFO # 2025-01-24 21:23:49,219 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6793b78ce8739ea9b2c0aae6'), Created=datetime.datetime(2025, 1, 24, 15, 53, 48, 960941, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-24T16:53:48.960960+01:00', Updated=datetime.datetime(2025, 1, 24, 15, 53, 48, 961001, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-24T16:53:48.961006+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6793b783e8739ea9b2c0aae1\n- From: 243724576420\n- Ticket: 6793b753e8739ea9b2c0aad4\n- for: 243851281438\n- Amount: 2000.00\n- Time: 2025-01-24T16:53:39.207936+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6793b783e8739ea9b2c0aae1')), TargetId=ObjectId('676566b861c1f839377400d0'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-24 21:23:51,530 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6793b78de8739ea9b2c0aae8'), Created=datetime.datetime(2025, 1, 24, 15, 53, 49, 223216, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-24T16:53:49.223236+01:00', Updated=datetime.datetime(2025, 1, 24, 15, 53, 49, 223284, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-24T16:53:49.223292+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=330, Title='Transaction Successfull', Message='Commission Transaction Successful:\n- ID: 6793b786e8739ea9b2c0aae3\n- From: 243724576420\n- Ticket: 6793b753e8739ea9b2c0aad4\n- for: 243851281438\n- Amount: 160.00\n- Time: 2025-01-24T16:53:42.016014+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6793b786e8739ea9b2c0aae3')), TargetId=ObjectId('676566b861c1f839377400d0'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-24 21:23:52,614 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Player[243851281438] Ticket[6793b753e8739ea9b2c0aad4] is CONFIRMED
+
+INFO # 2025-01-24 21:23:56,585 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/ticketsWaitingGameServiceTickets : GENERATE GAME SERVICE TICKETS FOR WAITING TICKETS REQUEST
+
+INFO # 2025-01-24 21:23:58,327 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/ticketsWaitingGameServiceTickets : GENERATE GAME SERVICE TICKETS FOR WAITING TICKETS REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 21:24:07,591 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/ticketsWaitingGameServiceTickets : GENERATE GAME SERVICE TICKETS FOR WAITING TICKETS REQUEST : No Tickets to Notify for Generated Game Service Tickets
+
+INFO # 2025-01-24 21:24:12,729 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/ticketsWaitingGameServiceTickets : GENERATE GAME SERVICE TICKETS FOR WAITING TICKETS REQUEST : No SKILROCK Tickets to Generate
+
+INFO # 2025-01-24 21:24:15,710 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/ticketsWaitingGameServiceTickets : GENERATE GAME SERVICE TICKETS FOR WAITING TICKETS REQUEST : Games Services Tickets Generate Request Completed
+
+INFO # 2025-01-24 21:26:21,579 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 21:26:21,581 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 21:26:27,023 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 39 Data Collections)
+
+INFO # 2025-01-24 21:26:27,024 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 21:26:27,026 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 21:26:27,028 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 21:26:27,065 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 21:26:36,038 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 21:26:37,891 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 21:26:44,132 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-24 21:27:11,531 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 21:27:11,532 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 21:27:13,991 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 21:27:13,992 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 21:27:13,994 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 21:27:13,996 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 21:27:14,036 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 21:27:18,215 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 21:27:19,970 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 21:27:24,264 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-24 21:27:26,895 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 21:27:30,273 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 21:27:35,681 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-24 21:28:31,407 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 21:28:33,025 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 21:29:03,666 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : INTERNAL SERVER ERROR
+NoneType: None
+
+INFO # 2025-01-24 21:29:07,171 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 21:29:12,186 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : Channel Authentication Failed - INTERNAL SERVER ERROR
+NoneType: None
+
+INFO # 2025-01-24 21:29:20,413 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 21:29:20,415 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 21:29:25,436 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Failed
+NoneType: None
+
+INFO # 2025-01-24 21:29:34,573 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 21:29:34,575 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 21:29:39,597 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Failed
+NoneType: None
+
+INFO # 2025-01-24 21:29:45,010 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 21:29:45,012 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 21:29:50,032 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Failed
+NoneType: None
+
+INFO # 2025-01-24 21:30:18,685 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 21:30:18,687 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 21:30:23,696 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 21:30:23,697 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 21:30:23,699 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 21:30:23,701 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 21:30:23,743 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 21:30:33,364 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 21:30:37,073 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 21:30:42,060 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-24 21:33:10,917 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 21:33:14,064 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 21:33:21,702 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-24 21:34:02,506 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 21:34:05,850 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 21:34:05,854 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-24 21:34:22,295 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-24 21:34:22,296 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-24 21:34:27,880 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6793b9fffb7ff69bba960a39 [DRAFT] Created Successfully
+
+INFO # 2025-01-24 21:34:27,882 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6793b9fffb7ff69bba960a39] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-24 21:39:04,956 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 21:39:04,969 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 21:39:07,594 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 21:39:07,595 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 21:39:07,598 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 21:39:07,599 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 21:39:07,701 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 21:41:02,931 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 21:41:06,406 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 21:41:06,410 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-24 21:41:18,208 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-24 21:41:18,210 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-24 21:41:20,557 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6793bba0ea1a731b54cbdc6d [DRAFT] Created Successfully
+
+INFO # 2025-01-24 21:41:20,559 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6793bba0ea1a731b54cbdc6d] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-24 21:41:39,133 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 21:41:41,175 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 21:41:41,178 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-24 21:41:52,827 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : LEO # 866 by 243851281438 on URETAIL
+NoneType: None
+
+INFO # 2025-01-24 21:43:28,932 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 21:43:31,330 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 21:43:36,267 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-24 21:48:04,225 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 21:48:04,226 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 21:48:06,529 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 39 Data Collections)
+
+INFO # 2025-01-24 21:48:06,530 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 21:48:06,532 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 21:48:06,534 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 21:48:06,576 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 21:48:13,261 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 21:48:15,143 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 21:48:15,146 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-24 21:48:22,267 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : LEO # 864 by 243851281438 on URETAIL
+NoneType: None
+
+INFO # 2025-01-24 22:03:47,119 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 22:03:48,746 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 22:03:52,029 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-24 22:19:15,021 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 22:19:16,512 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 22:19:19,498 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-24 22:19:30,425 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 22:19:32,551 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 22:19:35,520 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-24 23:11:43,594 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 23:11:44,761 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 23:11:47,373 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-24 23:11:49,919 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 23:11:51,085 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 23:11:53,685 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-24 23:12:30,375 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-24 23:12:30,376 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-24 23:12:31,525 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-24 23:12:31,527 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-24 23:12:31,528 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-24 23:12:31,529 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-24 23:12:31,589 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-24 23:12:36,739 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-24 23:12:37,865 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-24 23:12:40,462 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 3 Active Game Draws Found
+
+INFO # 2025-01-24 23:12:54,839 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 23:12:55,967 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 23:12:55,971 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-24 23:13:00,833 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-24 23:13:00,834 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-24 23:13:01,947 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6793d122787df8dd6d568988 [DRAFT] Created Successfully
+
+INFO # 2025-01-24 23:13:01,949 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6793d122787df8dd6d568988] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-24 23:13:14,822 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-24 23:13:15,971 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-24 23:13:15,973 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6793d122787df8dd6d568988 
+
+INFO # 2025-01-24 23:13:23,061 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : WITHDRAW FOR SALE REQUEST : 243724576420 : 6793d122787df8dd6d568988
+
+INFO # 2025-01-24 23:13:24,717 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724576420 : 6793d122787df8dd6d568988 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-24 23:13:24,719 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724576420 : 6793d122787df8dd6d568988 - WALLET TRANSACTION SUCCESSFUL
+
+INFO # 2025-01-24 23:13:24,900 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420
+
+INFO # 2025-01-24 23:13:26,570 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-24 23:13:26,572 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - CREDIT
+
+INFO # 2025-01-24 23:13:27,713 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6793d13e787df8dd6d568999'), Created=datetime.datetime(2025, 1, 24, 17, 43, 26, 576328, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-24T18:43:26.576346+01:00', Updated=datetime.datetime(2025, 1, 24, 17, 43, 26, 576392, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-24T18:43:26.576397+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6793d13c787df8dd6d568995\n- From: 243724576420\n- Ticket: 6793d122787df8dd6d568988\n- for: 243851281438\n- Amount: 2000.00\n- Time: 2025-01-24T18:43:24.187772+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6793d13c787df8dd6d568995')), TargetId=ObjectId('6769f22d29abe35fbaa7706a'), TargetType=100, Actions='SUCCESSFULL')
+
+INFO # 2025-01-24 23:13:27,895 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6793d13f787df8dd6d56899a'), Created=datetime.datetime(2025, 1, 24, 17, 43, 27, 714332, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-24T18:43:27.714353+01:00', Updated=datetime.datetime(2025, 1, 24, 17, 43, 27, 714396, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-24T18:43:27.714403+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6793d13c787df8dd6d568995\n- From: 243724576420\n- Ticket: 6793d122787df8dd6d568988\n- for: 243851281438\n- Amount: 2000.00\n- Time: 2025-01-24T18:43:24.187772+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6793d13c787df8dd6d568995')), TargetId=ObjectId('676566b861c1f839377400d0'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-24 23:13:29,012 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6793d13f787df8dd6d56899c'), Created=datetime.datetime(2025, 1, 24, 17, 43, 27, 898682, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-24T18:43:27.898698+01:00', Updated=datetime.datetime(2025, 1, 24, 17, 43, 27, 898731, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-24T18:43:27.898735+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=330, Title='Transaction Successfull', Message='Commission Transaction Successful:\n- ID: 6793d13e787df8dd6d568997\n- From: 243724576420\n- Ticket: 6793d122787df8dd6d568988\n- for: 243851281438\n- Amount: 160.00\n- Time: 2025-01-24T18:43:26.035012+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6793d13e787df8dd6d568997')), TargetId=ObjectId('676566b861c1f839377400d0'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-24 23:13:29,549 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Player[243851281438] Ticket[6793d122787df8dd6d568988] is CONFIRMED
+
+INFO # 2025-01-24 23:47:00,746 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 23:47:01,912 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 23:47:01,917 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-24 23:47:06,795 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-24 23:47:07,922 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6793d920787df8dd6d5689a3 [DRAFT] Created Successfully
+
+INFO # 2025-01-24 23:47:07,924 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6793d920787df8dd6d5689a3] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-24 23:47:18,452 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-24 23:47:19,626 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-24 23:47:19,628 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6793d920787df8dd6d5689a3 
+
+INFO # 2025-01-24 23:47:26,687 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : WITHDRAW FOR SALE REQUEST : 243724576420 : 6793d920787df8dd6d5689a3
+
+INFO # 2025-01-24 23:47:28,331 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724576420 : 6793d920787df8dd6d5689a3 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-24 23:47:28,332 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724576420 : 6793d920787df8dd6d5689a3 - WALLET TRANSACTION SUCCESSFUL
+
+INFO # 2025-01-24 23:47:28,510 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420
+
+INFO # 2025-01-24 23:47:30,150 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-24 23:47:30,151 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - CREDIT
+
+INFO # 2025-01-24 23:47:31,261 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6793d93a787df8dd6d5689b4'), Created=datetime.datetime(2025, 1, 24, 18, 17, 30, 154539, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-24T19:17:30.154551+01:00', Updated=datetime.datetime(2025, 1, 24, 18, 17, 30, 154577, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-24T19:17:30.154579+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6793d937787df8dd6d5689b0\n- From: 243724576420\n- Ticket: 6793d920787df8dd6d5689a3\n- for: 243851281438\n- Amount: 1000.00\n- Time: 2025-01-24T19:17:27.801972+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6793d937787df8dd6d5689b0')), TargetId=ObjectId('6769f22d29abe35fbaa7706a'), TargetType=100, Actions='SUCCESSFULL')
+
+INFO # 2025-01-24 23:47:31,443 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6793d93b787df8dd6d5689b5'), Created=datetime.datetime(2025, 1, 24, 18, 17, 31, 262735, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-24T19:17:31.262754+01:00', Updated=datetime.datetime(2025, 1, 24, 18, 17, 31, 262794, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-24T19:17:31.262802+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6793d937787df8dd6d5689b0\n- From: 243724576420\n- Ticket: 6793d920787df8dd6d5689a3\n- for: 243851281438\n- Amount: 1000.00\n- Time: 2025-01-24T19:17:27.801972+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6793d937787df8dd6d5689b0')), TargetId=ObjectId('676566b861c1f839377400d0'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-24 23:47:32,560 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6793d93b787df8dd6d5689b7'), Created=datetime.datetime(2025, 1, 24, 18, 17, 31, 446005, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-24T19:17:31.446024+01:00', Updated=datetime.datetime(2025, 1, 24, 18, 17, 31, 446059, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-24T19:17:31.446063+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=330, Title='Transaction Successfull', Message='Commission Transaction Successful:\n- ID: 6793d939787df8dd6d5689b2\n- From: 243724576420\n- Ticket: 6793d920787df8dd6d5689a3\n- for: 243851281438\n- Amount: 80.00\n- Time: 2025-01-24T19:17:29.620022+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6793d939787df8dd6d5689b2')), TargetId=ObjectId('676566b861c1f839377400d0'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-24 23:47:33,102 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Player[243851281438] Ticket[6793d920787df8dd6d5689a3] is CONFIRMED
+
+INFO # 2025-01-24 23:50:15,958 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 23:50:17,120 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 23:50:17,122 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-24 23:50:21,983 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : SBL # 648 by 243851281438 on URETAIL
+NoneType: None
+
+INFO # 2025-01-24 23:50:27,824 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-24 23:50:28,981 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-24 23:50:28,982 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-24 23:50:33,947 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-24 23:50:35,079 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6793d9ef787df8dd6d5689c6 [DRAFT] Created Successfully
+
+INFO # 2025-01-24 23:50:35,081 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6793d9ef787df8dd6d5689c6] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-24 23:50:45,123 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-24 23:50:46,257 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-24 23:50:46,261 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6793d9ef787df8dd6d5689c6 
+
+INFO # 2025-01-24 23:50:53,360 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : WITHDRAW FOR SALE REQUEST : 243724576420 : 6793d9ef787df8dd6d5689c6
+
+INFO # 2025-01-24 23:50:55,006 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724576420 : 6793d9ef787df8dd6d5689c6 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-24 23:50:55,008 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724576420 : 6793d9ef787df8dd6d5689c6 - WALLET TRANSACTION SUCCESSFUL
+
+INFO # 2025-01-24 23:50:55,187 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420
+
+INFO # 2025-01-24 23:50:56,849 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-24 23:50:56,851 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - CREDIT
+
+INFO # 2025-01-24 23:50:57,973 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6793da08787df8dd6d5689d7'), Created=datetime.datetime(2025, 1, 24, 18, 20, 56, 854907, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-24T19:20:56.854928+01:00', Updated=datetime.datetime(2025, 1, 24, 18, 20, 56, 854970, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-24T19:20:56.854977+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6793da06787df8dd6d5689d3\n- From: 243724576420\n- Ticket: 6793d9ef787df8dd6d5689c6\n- for: 243851281438\n- Amount: 1000.00\n- Time: 2025-01-24T19:20:54.469825+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6793da06787df8dd6d5689d3')), TargetId=ObjectId('6769f22d29abe35fbaa7706a'), TargetType=100, Actions='SUCCESSFULL')
+
+INFO # 2025-01-24 23:50:58,159 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6793da09787df8dd6d5689d8'), Created=datetime.datetime(2025, 1, 24, 18, 20, 57, 974710, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-24T19:20:57.974726+01:00', Updated=datetime.datetime(2025, 1, 24, 18, 20, 57, 974762, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-24T19:20:57.974766+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6793da06787df8dd6d5689d3\n- From: 243724576420\n- Ticket: 6793d9ef787df8dd6d5689c6\n- for: 243851281438\n- Amount: 1000.00\n- Time: 2025-01-24T19:20:54.469825+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6793da06787df8dd6d5689d3')), TargetId=ObjectId('676566b861c1f839377400d0'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-24 23:50:59,283 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6793da0a787df8dd6d5689da'), Created=datetime.datetime(2025, 1, 24, 18, 20, 58, 163385, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-24T19:20:58.163404+01:00', Updated=datetime.datetime(2025, 1, 24, 18, 20, 58, 163452, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-24T19:20:58.163459+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=330, Title='Transaction Successfull', Message='Commission Transaction Successful:\n- ID: 6793da08787df8dd6d5689d5\n- From: 243724576420\n- Ticket: 6793d9ef787df8dd6d5689c6\n- for: 243851281438\n- Amount: 80.00\n- Time: 2025-01-24T19:20:56.317513+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6793da08787df8dd6d5689d5')), TargetId=ObjectId('676566b861c1f839377400d0'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-24 23:50:59,818 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Player[243851281438] Ticket[6793d9ef787df8dd6d5689c6] is CONFIRMED
+
+INFO # 2025-01-25 00:29:23,298 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 00:29:25,103 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 00:29:25,105 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-25 00:29:31,923 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL EXCEPTION - Failed to Identify Player
+NoneType: None
+
+INFO # 2025-01-25 00:29:37,359 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 00:29:49,074 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 00:29:49,076 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-25 00:29:54,087 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/]  : Invalid Agent Id - Not Exists
+
+INFO # 2025-01-25 00:29:54,090 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Invalid Agent Id - Not Exists
+NoneType: None
+
+INFO # 2025-01-25 00:30:02,329 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 00:30:05,266 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 00:30:05,267 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-25 00:30:20,465 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : LEO # 864 by 243851281438 on URETAIL
+NoneType: None
+
+INFO # 2025-01-25 16:52:17,820 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 16:52:17,822 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 16:52:19,211 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 16:52:19,213 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 16:52:19,215 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 16:52:19,217 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 16:52:19,252 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 16:52:27,975 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-25 16:52:29,306 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-25 16:52:31,791 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.20.235.87:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 3 Active Game Draws Found
+
+INFO # 2025-01-25 16:53:50,527 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/668537f7782794b1628333ac/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 16:53:52,660 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/668537f7782794b1628333ac/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 16:53:52,669 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 668537f7782794b1628333ac/ [/] 
+
+INFO # 2025-01-25 16:53:54,431 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/668537f7782794b1628333ac/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player Not Found
+NoneType: None
+
+INFO # 2025-01-25 16:54:21,928 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 16:54:23,481 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 16:54:23,488 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-25 16:54:23,500 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL EXCEPTION - Failed to Identify Player
+NoneType: None
+
+INFO # 2025-01-25 16:55:24,380 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6769f22d29abe35fbaa7706a/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 16:55:25,587 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6769f22d29abe35fbaa7706a/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 16:55:25,590 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6769f22d29abe35fbaa7706a/ [/] 
+
+INFO # 2025-01-25 16:55:26,664 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6769f22d29abe35fbaa7706a/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player Not Found
+NoneType: None
+
+INFO # 2025-01-25 16:56:59,976 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 16:56:59,979 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 16:57:01,309 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 16:57:01,311 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 16:57:01,314 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 16:57:01,317 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 16:57:01,404 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 16:57:23,714 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6769f22d29abe35fbaa7706a/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 16:57:24,946 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6769f22d29abe35fbaa7706a/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 16:57:24,958 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6769f22d29abe35fbaa7706a/ [/] 
+
+INFO # 2025-01-25 17:01:40,576 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6769f22d29abe35fbaa7706a/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player Not Found
+NoneType: None
+
+INFO # 2025-01-25 17:01:40,625 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER
+
+INFO # 2025-01-25 17:01:42,031 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : AUTHORIZED 
+
+INFO # 2025-01-25 17:01:44,157 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Player Identified : 243851281438 : Soft Wallet Found
+
+INFO # 2025-01-25 17:01:44,168 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Access Denied
+NoneType: None
+
+INFO # 2025-01-25 17:01:50,195 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER
+
+INFO # 2025-01-25 17:01:51,484 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : AUTHORIZED 
+
+INFO # 2025-01-25 17:01:53,616 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Player Identified : 243851281438 : Soft Wallet Found
+
+INFO # 2025-01-25 17:01:53,618 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Access Denied
+NoneType: None
+
+INFO # 2025-01-25 17:02:27,494 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER
+
+INFO # 2025-01-25 17:02:28,862 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : AUTHORIZED 
+
+INFO # 2025-01-25 17:02:31,003 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Player Identified : 243851281438 : Soft Wallet Found
+
+INFO # 2025-01-25 17:02:31,009 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Access Denied
+NoneType: None
+
+INFO # 2025-01-25 17:05:38,141 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER
+
+INFO # 2025-01-25 17:05:39,612 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : AUTHORIZED 
+
+INFO # 2025-01-25 17:05:41,805 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Player Identified : 243851281438 : Soft Wallet Found
+
+INFO # 2025-01-25 17:05:41,808 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Access Denied
+NoneType: None
+
+INFO # 2025-01-25 17:05:48,809 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER
+
+INFO # 2025-01-25 17:05:49,864 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : AUTHORIZED 
+
+INFO # 2025-01-25 17:05:51,967 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Player Identified : 243851281438 : Soft Wallet Found
+
+INFO # 2025-01-25 17:05:54,180 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Successfull Login : 243851281438
+
+INFO # 2025-01-25 17:06:17,684 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:06:18,961 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:06:18,965 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:06:22,669 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:06:22,672 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 17:06:23,745 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6794ccb4caf35691073c661c [DRAFT] Created Successfully
+
+INFO # 2025-01-25 17:06:23,748 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794ccb4caf35691073c661c] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-25 17:08:46,515 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:08:47,746 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:09:27,447 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:09:28,933 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:09:28,937 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL SERVER ERROR - Unable to Process Create / Update Ticket Request
+NoneType: None
+
+INFO # 2025-01-25 17:09:51,813 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:09:53,055 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:09:53,057 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:09:58,089 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:09:58,090 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Failed to Create New Player Ticket
+NoneType: None
+
+INFO # 2025-01-25 17:10:14,082 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:10:15,547 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:10:15,549 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:10:20,650 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:11:45,712 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 17:11:45,714 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 17:11:46,918 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 17:11:46,920 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 17:11:46,922 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 17:11:46,926 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 17:11:46,987 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 17:11:55,107 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:11:56,265 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:11:56,271 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:12:01,217 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:12:01,406 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794ccb4caf35691073c661c] Updated with Ticket Price as 3000.0
+
+INFO # 2025-01-25 17:12:58,727 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:12:59,961 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:13:14,237 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL SERVER ERROR - Unable to Process Create / Update Ticket Request
+NoneType: None
+
+INFO # 2025-01-25 17:13:20,829 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:13:22,359 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:13:22,375 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:13:26,466 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:13:27,550 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6794ce5c6c0fb62ce99ced81 [DRAFT] Created Successfully
+
+INFO # 2025-01-25 17:13:27,553 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794ce5c6c0fb62ce99ced81] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-25 17:14:00,765 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:14:01,984 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:14:01,990 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL SERVER ERROR - Unable to Process Create / Update Ticket Request
+NoneType: None
+
+INFO # 2025-01-25 17:17:56,815 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:17:58,225 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:17:58,239 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:18:01,931 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:18:01,933 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 17:18:03,141 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6794cf6f6c0fb62ce99ced89 [DRAFT] Created Successfully
+
+INFO # 2025-01-25 17:18:03,146 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794cf6f6c0fb62ce99ced89] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-25 17:18:24,287 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:18:25,500 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:18:25,504 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:18:30,557 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:18:30,738 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794cf6f6c0fb62ce99ced89] Updated with Ticket Price as 3000.0
+
+INFO # 2025-01-25 17:19:56,319 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:19:57,714 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:19:57,718 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:20:00,282 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Ticket Id 641842cb9817b50f2cb3449f NOT FOUND for Player 243851281438
+NoneType: None
+
+INFO # 2025-01-25 17:20:41,422 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:20:42,600 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:20:42,605 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:20:46,254 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : SBL # 330 by 243851281438 on SBLWEBUAT
+NoneType: None
+
+INFO # 2025-01-25 17:21:09,344 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:21:10,667 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:21:10,670 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:21:14,424 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:21:15,620 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6794d0306c0fb62ce99ced9f [DRAFT] Created Successfully
+
+INFO # 2025-01-25 17:21:15,623 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794d0306c0fb62ce99ced9f] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-25 17:21:45,891 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:21:47,086 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:21:47,090 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:21:51,971 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : For Ticket 6794d0306c0fb62ce99ced9f, Row Id 2 NOT Found
+NoneType: None
+
+INFO # 2025-01-25 17:22:20,233 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:22:21,508 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:22:21,511 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL SERVER ERROR - Unable to Process Create / Update Ticket Request
+NoneType: None
+
+INFO # 2025-01-25 17:22:29,646 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:22:30,740 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:22:30,744 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL SERVER ERROR - Unable to Process Create / Update Ticket Request
+NoneType: None
+
+INFO # 2025-01-25 17:22:33,831 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:22:35,058 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:22:35,062 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL SERVER ERROR - Unable to Process Create / Update Ticket Request
+NoneType: None
+
+INFO # 2025-01-25 17:26:54,475 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 17:26:54,478 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 17:26:55,649 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 17:26:55,652 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 17:26:55,657 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 17:26:55,660 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 17:26:55,720 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 17:28:20,551 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:28:21,766 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:28:21,772 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL SERVER ERROR - Unable to Process Create / Update Ticket Request
+NoneType: None
+
+INFO # 2025-01-25 17:29:23,875 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:29:25,064 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:29:25,067 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL SERVER ERROR - Unable to Process Create / Update Ticket Request
+NoneType: None
+
+INFO # 2025-01-25 17:29:42,999 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:29:44,150 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:29:44,153 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:29:47,853 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:29:47,854 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 17:29:49,012 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6794d231b81188e456842c7c [DRAFT] Created Successfully
+
+INFO # 2025-01-25 17:29:49,015 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794d231b81188e456842c7c] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-25 17:30:21,372 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:30:22,580 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:30:22,583 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL SERVER ERROR - Unable to Process Create / Update Ticket Request
+NoneType: None
+
+INFO # 2025-01-25 17:30:37,240 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:30:38,413 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:30:38,415 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:30:43,310 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:30:43,483 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794d231b81188e456842c7c] Updated with Ticket Price as 3000.0
+
+INFO # 2025-01-25 17:33:06,760 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:33:07,937 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:33:07,939 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-25 17:33:12,666 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:33:13,744 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6794d2feb81188e456842c8a [DRAFT] Created Successfully
+
+INFO # 2025-01-25 17:33:13,748 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6794d2feb81188e456842c8a] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-25 17:34:20,143 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:34:21,915 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:34:21,918 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:34:29,192 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid Game Draw Code : SBL # 678 by 243851281438 on SBLWEBUAT
+NoneType: None
+
+INFO # 2025-01-25 17:34:47,147 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:34:48,399 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:34:48,402 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:34:53,599 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:34:53,776 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794d2feb81188e456842c8a] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 17:37:22,540 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:37:23,785 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:37:23,806 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:37:28,763 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:37:50,764 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794d2feb81188e456842c8a] Updated with Ticket Price as 3000.0
+
+INFO # 2025-01-25 17:39:25,940 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 17:39:25,944 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 17:39:27,750 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 17:39:27,751 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 17:39:27,753 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 17:39:27,755 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 17:39:27,790 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 17:39:51,140 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 17:39:51,141 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 17:39:55,183 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 17:39:55,186 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 17:39:56,277 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 17:39:56,282 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 17:39:56,289 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 17:39:56,295 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 17:39:56,324 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 17:40:08,995 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:40:10,265 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:40:10,269 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:40:21,744 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:40:30,908 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794d2feb81188e456842c8a] Updated with Ticket Price as 4000.0
+
+INFO # 2025-01-25 17:41:56,395 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:41:57,569 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:41:57,573 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:42:01,394 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : SBL # 678 by 243851281438 on SBLWEBUAT
+NoneType: None
+
+INFO # 2025-01-25 17:42:25,570 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:42:27,163 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:42:27,165 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:42:30,947 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:42:32,121 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6794d52ce2c97ede799ec8f2 [DRAFT] Created Successfully
+
+INFO # 2025-01-25 17:42:32,123 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794d52ce2c97ede799ec8f2] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-25 17:42:58,785 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:42:59,988 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:42:59,994 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:43:05,014 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:43:05,202 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794d52ce2c97ede799ec8f2] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 17:51:43,818 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:51:45,129 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:51:45,131 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:51:50,104 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:51:50,287 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794d52ce2c97ede799ec8f2] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 17:52:44,007 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 17:52:44,011 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 17:52:45,189 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 17:52:45,192 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 17:52:45,194 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 17:52:45,197 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 17:52:45,225 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 17:53:01,872 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 17:53:01,878 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 17:53:03,193 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 17:53:03,199 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 17:53:03,200 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 17:53:03,201 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 17:53:03,217 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 17:53:10,213 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:53:11,336 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:53:11,339 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:53:16,480 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:53:16,668 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794d52ce2c97ede799ec8f2] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 17:53:30,156 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:53:31,337 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:53:31,340 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:53:36,211 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:53:36,392 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794d52ce2c97ede799ec8f2] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 17:55:05,481 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 17:55:06,648 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 17:55:06,651 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 17:55:10,450 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 17:55:11,788 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6794d8240db2b1d497d30d36 [DRAFT] Created Successfully
+
+INFO # 2025-01-25 17:55:11,789 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794d8240db2b1d497d30d36] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-25 18:05:21,649 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:05:22,981 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:05:22,984 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL SERVER ERROR - Unable to Process Create / Update Ticket Request
+NoneType: None
+
+INFO # 2025-01-25 18:06:13,941 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:06:15,274 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:06:15,278 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 18:06:19,348 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 18:06:19,350 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 18:06:20,510 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6794dac10db2b1d497d30d3e [DRAFT] Created Successfully
+
+INFO # 2025-01-25 18:06:20,512 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794dac10db2b1d497d30d3e] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-25 18:06:55,636 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:06:56,805 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:06:56,807 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL SERVER ERROR - Unable to Process Create / Update Ticket Request
+NoneType: None
+
+INFO # 2025-01-25 18:07:03,468 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:07:04,929 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:07:04,931 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 18:07:10,486 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 18:07:10,661 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794dac10db2b1d497d30d3e] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 18:08:16,734 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:08:18,117 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:08:18,120 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 18:08:24,062 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 18:08:24,241 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794dac10db2b1d497d30d3e] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 18:09:48,886 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 18:09:48,891 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 18:09:50,100 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 18:09:50,103 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 18:09:50,104 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 18:09:50,106 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 18:09:50,136 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 18:09:57,782 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:09:58,994 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:09:59,001 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 18:10:04,027 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 18:10:04,211 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794dac10db2b1d497d30d3e] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 18:21:30,453 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:21:31,722 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:21:31,725 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 18:21:35,478 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 18:21:35,480 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 18:21:36,607 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6794de55b60b5aed2237ed2b [DRAFT] Created Successfully
+
+INFO # 2025-01-25 18:21:36,613 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794de55b60b5aed2237ed2b] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-25 18:22:02,586 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:22:04,293 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:22:04,297 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 18:22:09,411 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 18:22:09,591 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794de55b60b5aed2237ed2b] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 18:23:15,727 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:23:16,873 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:23:16,876 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 18:23:21,959 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 18:23:22,167 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794de55b60b5aed2237ed2b] Updated with Ticket Price as 3000.0
+
+INFO # 2025-01-25 18:30:49,894 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:30:51,110 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:30:51,113 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : INTERNAL SERVER ERROR - Unable to Process Create / Update Ticket Request
+NoneType: None
+
+INFO # 2025-01-25 18:30:57,802 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:30:58,969 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:30:58,976 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 18:31:02,870 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 18:31:04,029 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6794e08cb60b5aed2237ed3d [DRAFT] Created Successfully
+
+INFO # 2025-01-25 18:31:04,032 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794e08cb60b5aed2237ed3d] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-25 18:31:43,775 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:31:44,950 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:31:44,954 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 18:31:49,945 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 18:31:50,131 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794e08cb60b5aed2237ed3d] Updated with Ticket Price as 1000.0
+
+INFO # 2025-01-25 18:33:05,423 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 18:33:05,428 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 18:33:06,692 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 18:33:06,693 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 18:33:06,694 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 18:33:06,695 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 18:33:06,722 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 18:38:24,366 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 18:38:24,388 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 18:38:25,615 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 18:38:25,625 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 18:38:25,631 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 18:38:25,638 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 18:38:25,701 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 18:38:35,596 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 18:38:35,605 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 18:38:36,821 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 18:38:36,823 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 18:38:36,824 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 18:38:36,833 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 18:38:36,880 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 18:46:49,951 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:46:51,282 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:46:51,286 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 18:46:55,228 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 18:46:55,230 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 18:46:55,231 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 18:46:56,311 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6794e44464fbb2eefb89df47 [DRAFT] Created Successfully
+
+INFO # 2025-01-25 18:46:56,313 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.20.235.87:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794e44464fbb2eefb89df47] Created with Ticket Price as 3000.0
+
+INFO # 2025-01-25 18:53:05,426 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 18:53:05,428 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 18:53:06,550 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 18:53:06,552 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 18:53:06,553 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 18:53:06,554 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 18:53:06,572 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 18:53:50,859 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.14.147:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:53:52,112 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.14.147:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:53:52,116 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 18:53:54,918 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.14.147:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Ticket Row Id[s] (1) Data Doesn't Match to Update
+NoneType: None
+
+INFO # 2025-01-25 18:54:06,659 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.14.147:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 18:54:07,743 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.14.147:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 18:54:07,745 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 18:54:12,599 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 18:54:12,777 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.14.147:9000/channel/SBLWEBUAT/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6794cc97caf35691073c6617] Ticket[6794e08cb60b5aed2237ed3d] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 19:01:50,689 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 19:01:50,698 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 19:01:51,814 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 19:01:51,815 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 19:01:51,817 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 19:01:51,819 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 19:01:51,842 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 19:02:15,549 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 19:02:15,550 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 19:02:16,695 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 19:02:16,696 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 19:02:16,696 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 19:02:16,697 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 19:02:16,721 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 19:02:28,142 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 19:02:28,144 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 19:02:29,327 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 19:02:29,330 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 19:02:29,332 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 19:02:29,334 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 19:02:29,355 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 19:03:32,365 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 19:03:32,366 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 19:03:33,518 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 19:03:33,519 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 19:03:33,520 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 19:03:33,521 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 19:03:33,570 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 19:04:02,397 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.14.147:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-25 19:04:03,660 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.14.147:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-25 19:04:06,145 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.14.147:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 3 Active Game Draws Found
+
+INFO # 2025-01-25 19:04:21,637 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.14.147:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 19:04:22,749 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.14.147:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 19:04:22,752 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-25 19:04:27,630 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 19:04:27,631 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.14.147:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Multiple Game Code not allowed : LEO by 243851281438 on URETAIL
+NoneType: None
+
+INFO # 2025-01-25 19:06:20,005 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 19:06:20,008 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 19:06:21,164 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 19:06:21,170 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 19:06:21,173 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 19:06:21,176 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 19:06:21,203 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 21:07:43,508 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 21:07:43,508 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 21:07:44,671 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 21:07:44,672 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 21:07:44,673 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 21:07:44,674 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 21:07:44,691 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 21:08:12,214 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 21:08:12,216 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 21:08:13,330 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 21:08:13,332 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 21:08:13,333 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 21:08:13,334 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 21:08:13,355 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 21:08:32,775 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 21:08:32,776 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 21:08:33,869 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 21:08:33,871 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 21:08:33,872 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 21:08:33,873 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 21:08:33,889 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 21:08:41,006 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 21:08:41,009 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 21:08:42,307 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 21:08:42,308 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 21:08:42,308 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 21:08:42,309 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 21:08:42,322 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 21:08:51,373 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 21:08:51,374 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 21:08:52,480 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 21:08:52,481 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 21:08:52,482 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 21:08:52,483 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 21:08:52,495 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 21:09:14,468 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 21:09:14,469 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 21:09:15,612 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 21:09:15,614 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 21:09:15,615 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 21:09:15,616 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 21:09:15,629 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 21:09:59,319 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 21:09:59,321 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 21:10:00,434 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 21:10:00,444 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 21:10:00,465 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 21:10:00,470 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 21:10:00,506 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 21:14:27,478 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.14.147:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-25 21:14:28,626 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.14.147:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-25 21:14:31,098 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.14.147:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-25 21:23:19,885 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.14.147:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-25 21:23:21,043 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.14.147:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-25 21:23:23,504 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.14.147:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-25 23:04:31,522 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 23:04:31,523 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 23:04:33,351 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 23:04:33,352 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 23:04:33,353 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 23:04:33,354 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 23:04:33,370 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 23:05:22,553 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.21.57.140:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-25 23:05:23,649 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.21.57.140:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-25 23:05:26,189 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.21.57.140:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 3 Active Game Draws Found
+
+INFO # 2025-01-25 23:06:02,920 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:06:04,086 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:06:04,088 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 23:06:04,090 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/]  : Invalid Player Username
+
+INFO # 2025-01-25 23:06:04,092 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Invalid Player Username
+NoneType: None
+
+INFO # 2025-01-25 23:06:27,072 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER
+
+INFO # 2025-01-25 23:06:28,173 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : AUTHORIZED 
+
+INFO # 2025-01-25 23:06:29,238 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : You are not registered for WEB, Please register
+
+INFO # 2025-01-25 23:08:19,879 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER
+
+INFO # 2025-01-25 23:08:20,971 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : AUTHORIZED 
+
+INFO # 2025-01-25 23:08:23,098 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Player Identified : 243851281438 : Soft Wallet Found
+
+INFO # 2025-01-25 23:08:25,242 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Successfull Login : 243851281438
+
+INFO # 2025-01-25 23:08:34,483 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6795218f21cd4faec0f71565/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:08:35,601 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6795218f21cd4faec0f71565/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:08:35,605 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6795218f21cd4faec0f71565/ [/] 
+
+INFO # 2025-01-25 23:08:35,608 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6795218f21cd4faec0f71565/ [/]  : Invalid Player Username
+
+INFO # 2025-01-25 23:08:35,609 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6795218f21cd4faec0f71565/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Invalid Player Username
+NoneType: None
+
+INFO # 2025-01-25 23:09:15,590 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:09:16,688 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:09:16,690 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-25 23:09:20,212 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 23:09:21,361 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : LEO # 866 by 243846829437 on ORGUSSDBETA
+NoneType: None
+
+INFO # 2025-01-25 23:09:36,878 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:09:38,154 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:09:38,156 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-25 23:09:52,301 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : LEO # 868 by 243846829437 on ORGUSSDBETA
+NoneType: None
+
+INFO # 2025-01-25 23:10:06,243 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.21.57.140:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-25 23:10:07,516 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.21.57.140:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-25 23:10:10,006 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.21.57.140:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 3 Active Game Draws Found
+
+INFO # 2025-01-25 23:10:24,600 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:10:25,717 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:10:25,719 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-25 23:10:29,279 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 23:10:29,281 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 23:10:30,437 : VSYS-Exchange-DEVEXT-v5 : Player 243846829437 Ticket 6795220b21cd4faec0f7157d [DRAFT] Created Successfully
+
+INFO # 2025-01-25 23:10:30,439 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243846829437] Ticket[6795220b21cd4faec0f7157d] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-25 23:11:48,867 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:11:50,033 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:11:50,035 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 23:11:50,036 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/]  : Invalid Player Username
+
+INFO # 2025-01-25 23:11:50,037 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Invalid Player Username
+NoneType: None
+
+INFO # 2025-01-25 23:13:02,966 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:13:04,254 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:13:04,257 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 23:13:04,259 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/]  : Invalid Player Username
+
+INFO # 2025-01-25 23:13:04,260 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Invalid Player Username
+NoneType: None
+
+INFO # 2025-01-25 23:14:01,777 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:14:02,892 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:14:02,894 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/] 
+
+INFO # 2025-01-25 23:14:02,896 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6794cc97caf35691073c6617/ [/]  : Invalid Player Username
+
+INFO # 2025-01-25 23:14:02,897 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/6794cc97caf35691073c6617/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Invalid Player Username
+NoneType: None
+
+INFO # 2025-01-25 23:14:41,478 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:14:42,889 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:14:42,892 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-25 23:14:45,511 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Ticket Id 6794e08cb60b5aed2237ed3d NOT FOUND for Player 243846829437
+NoneType: None
+
+INFO # 2025-01-25 23:15:03,802 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:15:04,919 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:15:04,921 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-25 23:15:09,636 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 23:15:09,637 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 23:15:09,820 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243846829437] Ticket[6795220b21cd4faec0f7157d] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 23:17:17,585 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 23:17:17,588 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 23:17:19,006 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 23:17:19,007 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 23:17:19,009 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 23:17:19,011 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 23:17:19,039 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 23:18:28,581 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 23:18:28,581 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 23:18:29,728 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 23:18:29,729 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 23:18:29,730 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 23:18:29,732 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 23:18:29,761 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 23:18:33,545 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 23:18:33,553 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 23:18:34,744 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 23:18:34,745 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 23:18:34,746 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 23:18:34,748 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 23:18:34,775 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-25 23:18:39,632 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:18:40,786 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:18:40,803 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-25 23:18:45,583 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 23:18:45,586 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 23:18:45,778 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243846829437] Ticket[6795220b21cd4faec0f7157d] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 23:18:56,889 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:18:58,014 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:18:58,017 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-25 23:19:01,554 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 23:19:01,556 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 23:19:02,667 : VSYS-Exchange-DEVEXT-v5 : Player 243846829437 Ticket 6795240bae0c8e93e79c97e9 [DRAFT] Created Successfully
+
+INFO # 2025-01-25 23:19:02,669 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243846829437] Ticket[6795240bae0c8e93e79c97e9] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-25 23:19:15,324 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-25 23:19:16,473 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-25 23:19:16,476 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-25 23:19:21,519 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-25 23:19:21,522 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-25 23:19:21,705 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243846829437] Ticket[6795220b21cd4faec0f7157d] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-25 23:22:15,635 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-25 23:22:15,638 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-25 23:22:16,984 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-25 23:22:16,986 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-25 23:22:16,988 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-25 23:22:16,994 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-25 23:22:17,034 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-26 10:57:19,082 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.21.57.140:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-26 10:57:20,358 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.21.57.140:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-26 10:57:22,758 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.21.57.140:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 3 Active Game Draws Found
+
+INFO # 2025-01-26 10:58:54,735 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 10:58:56,090 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 10:58:56,096 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-26 10:58:59,944 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 10:58:59,947 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-26 10:59:01,214 : VSYS-Exchange-DEVEXT-v5 : Player 243846829437 Ticket 6795c81907469a0cefcf5cdc [DRAFT] Created Successfully
+
+INFO # 2025-01-26 10:59:01,217 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243846829437] Ticket[6795c81907469a0cefcf5cdc] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-26 11:06:26,996 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 11:06:28,237 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 11:06:28,240 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-26 11:06:31,692 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : LEO # 866 by 243846829437 on ORGUSSDBETA
+NoneType: None
+
+INFO # 2025-01-26 11:08:55,443 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 11:08:56,671 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 11:08:56,676 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-26 11:09:00,370 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 11:09:01,538 : VSYS-Exchange-DEVEXT-v5 : Player 243846829437 Ticket 6795ca7207469a0cefcf5cea [DRAFT] Created Successfully
+
+INFO # 2025-01-26 11:09:01,542 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243846829437] Ticket[6795ca7207469a0cefcf5cea] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-26 11:12:16,749 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 11:12:18,093 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 11:12:18,096 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-26 11:12:21,599 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : SBL # 866 by 243846829437 on ORGUSSDBETA
+NoneType: None
+
+INFO # 2025-01-26 11:12:43,675 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 11:12:45,127 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 11:12:45,130 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-26 11:12:49,318 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 11:12:49,321 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Multiple Game Code not allowed : LEO by 243846829437 on ORGUSSDBETA
+NoneType: None
+
+INFO # 2025-01-26 11:15:43,386 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 11:15:44,841 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 11:15:44,844 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-26 11:15:48,390 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 11:15:48,393 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-26 11:15:49,474 : VSYS-Exchange-DEVEXT-v5 : Player 243846829437 Ticket 6795cc0a07469a0cefcf5cff [DRAFT] Created Successfully
+
+INFO # 2025-01-26 11:15:49,476 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243846829437] Ticket[6795cc0a07469a0cefcf5cff] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-26 11:16:44,187 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-26 11:16:45,627 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-26 11:16:49,128 : VSYS-Exchange-DEVEXT-v5 : Player 243846829437 Ticket 6795cc0a07469a0cefcf5cff Channel ORGUSSDBETA : Player Soft Wallet Requested  : GET Player 243846829437 Ticket 6795cc0a07469a0cefcf5cff Channel ORGUSSDBETA : Player Soft Wallet Requested  SOFT WALLET REQUEST : NOT FOUND
+
+INFO # 2025-01-26 11:16:49,131 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Unable to Confirm Ticket : Player 243846829437 Wallet Not Found
+NoneType: None
+
+INFO # 2025-01-26 11:20:41,066 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 11:20:42,685 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 11:20:42,691 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243846829437/ [/] 
+
+INFO # 2025-01-26 11:20:47,343 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-26 11:20:47,347 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 11:20:47,532 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/ORGUSSDBETA/player/243846829437/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243846829437] Ticket[6795cc0a07469a0cefcf5cff] Updated with Ticket Price as 2000.0
+
+INFO # 2025-01-26 11:26:06,006 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER
+
+INFO # 2025-01-26 11:26:07,291 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : AUTHORIZED 
+
+INFO # 2025-01-26 11:26:09,468 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Player Identified : 243851281438 : Soft Wallet Found
+
+INFO # 2025-01-26 11:26:11,522 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player : IDENTIFY PLAYER : Successfull Login : 243851281438
+
+INFO # 2025-01-26 11:27:06,637 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 11:27:07,917 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 11:27:07,920 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6795ce7907469a0cefcf5d13/ [/] 
+
+INFO # 2025-01-26 11:27:11,539 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 11:27:12,642 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6795ceb507469a0cefcf5d18 [DRAFT] Created Successfully
+
+INFO # 2025-01-26 11:27:12,644 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6795ce7907469a0cefcf5d13] Ticket[6795ceb507469a0cefcf5d18] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-26 11:30:25,324 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 11:30:28,550 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 11:30:28,556 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6795ce7907469a0cefcf5d13/ [/] 
+
+INFO # 2025-01-26 11:30:35,297 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : LEO # 866 by 243851281438 on SBLWEBUAT
+NoneType: None
+
+INFO # 2025-01-26 11:32:21,101 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 11:32:24,277 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 11:32:24,279 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6795ce7907469a0cefcf5d13/ [/] 
+
+INFO # 2025-01-26 11:32:43,617 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 11:32:43,621 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-26 11:32:45,168 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6795cff807469a0cefcf5d26 [DRAFT] Created Successfully
+
+INFO # 2025-01-26 11:32:45,171 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[6795ce7907469a0cefcf5d13] Ticket[6795cff807469a0cefcf5d26] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-26 11:34:49,825 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 11:34:52,486 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 11:34:52,491 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6795ce7907469a0cefcf5d13/ [/] 
+
+INFO # 2025-01-26 11:34:59,612 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 11:34:59,615 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Multiple Game Code not allowed : LEO by 243851281438 on SBLWEBUAT
+NoneType: None
+
+INFO # 2025-01-26 11:36:55,364 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 11:37:03,217 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 11:37:03,221 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 6795ce7907469a0cefcf5d13/ [/] 
+
+INFO # 2025-01-26 11:37:11,803 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 11:37:11,807 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/SBLWEBUAT/player/6795ce7907469a0cefcf5d13/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : For Game Code LEO of Category Lotto LottoBalls are Missing.
+NoneType: None
+
+INFO # 2025-01-26 11:56:48,926 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 11:56:50,032 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 11:56:50,034 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-26 11:56:54,559 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 11:56:54,564 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : For Game Code LEO of Category Lotto LottoBalls are Missing.
+NoneType: None
+
+INFO # 2025-01-26 12:06:11,317 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 12:06:12,721 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 12:06:12,724 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-26 12:06:17,502 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : LEO # 866 by 243851281438 on URETAIL
+NoneType: None
+
+INFO # 2025-01-26 12:07:53,771 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 12:07:54,871 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 12:07:54,874 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-26 12:07:59,422 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 12:08:00,474 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6795d84507469a0cefcf5d4c [DRAFT] Created Successfully
+
+INFO # 2025-01-26 12:08:00,476 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6795d84507469a0cefcf5d4c] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-26 12:12:15,212 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 12:12:16,464 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 12:12:16,469 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-26 12:12:20,824 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 12:12:20,826 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-26 12:12:22,248 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6795d94a07469a0cefcf5d54 [DRAFT] Created Successfully
+
+INFO # 2025-01-26 12:12:22,251 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6795d94a07469a0cefcf5d54] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-26 12:14:45,543 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 12:14:46,700 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 12:14:46,702 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-26 12:14:51,454 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 12:14:51,455 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Multiple Game Code not allowed : LEO by 243851281438 on URETAIL
+NoneType: None
+
+INFO # 2025-01-26 12:18:08,595 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-26 12:18:09,768 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-26 12:18:09,771 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+INFO # 2025-01-26 12:18:14,276 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched.
+
+INFO # 2025-01-26 12:18:14,278 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched.
+
+INFO # 2025-01-26 12:18:15,320 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6795daac07469a0cefcf5d64 [DRAFT] Created Successfully
+
+INFO # 2025-01-26 12:18:15,324 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6795daac07469a0cefcf5d64] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-26 12:18:45,443 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-26 12:18:46,541 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-26 12:18:46,543 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6795daac07469a0cefcf5d64 
+
+INFO # 2025-01-26 12:18:53,036 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : WITHDRAW FOR SALE REQUEST : 243724576420 : 6795daac07469a0cefcf5d64
+
+INFO # 2025-01-26 12:18:54,556 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724576420 : 6795daac07469a0cefcf5d64 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-26 12:18:54,557 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724576420 : 6795daac07469a0cefcf5d64 - WALLET TRANSACTION SUCCESSFUL
+
+INFO # 2025-01-26 12:18:54,727 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420
+
+INFO # 2025-01-26 12:18:56,275 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-26 12:18:56,276 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724576420 Mobile Wallet -> 243724576420 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - CREDIT
+
+INFO # 2025-01-26 12:18:57,376 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6795dad807469a0cefcf5d75'), Created=datetime.datetime(2025, 1, 26, 6, 48, 56, 279788, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-26T07:48:56.279798+01:00', Updated=datetime.datetime(2025, 1, 26, 6, 48, 56, 279820, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-26T07:48:56.279823+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6795dad607469a0cefcf5d71\n- From: 243724576420\n- Ticket: 6795daac07469a0cefcf5d64\n- for: 243851281438\n- Amount: 2000.00\n- Time: 2025-01-26T07:48:54.053276+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6795dad607469a0cefcf5d71')), TargetId=ObjectId('6769f22d29abe35fbaa7706a'), TargetType=100, Actions='SUCCESSFULL')
+
+INFO # 2025-01-26 12:18:57,553 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6795dad907469a0cefcf5d76'), Created=datetime.datetime(2025, 1, 26, 6, 48, 57, 379258, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-26T07:48:57.379282+01:00', Updated=datetime.datetime(2025, 1, 26, 6, 48, 57, 379347, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-26T07:48:57.379356+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6795dad607469a0cefcf5d71\n- From: 243724576420\n- Ticket: 6795daac07469a0cefcf5d64\n- for: 243851281438\n- Amount: 2000.00\n- Time: 2025-01-26T07:48:54.053276+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6795dad607469a0cefcf5d71')), TargetId=ObjectId('676566b861c1f839377400d0'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-26 12:18:58,639 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6795dad907469a0cefcf5d78'), Created=datetime.datetime(2025, 1, 26, 6, 48, 57, 556187, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-26T07:48:57.556195+01:00', Updated=datetime.datetime(2025, 1, 26, 6, 48, 57, 556217, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-26T07:48:57.556219+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=330, Title='Transaction Successfull', Message='Commission Transaction Successful:\n- ID: 6795dad707469a0cefcf5d73\n- From: 243724576420\n- Ticket: 6795daac07469a0cefcf5d64\n- for: 243851281438\n- Amount: 160.00\n- Time: 2025-01-26T07:48:55.771420+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6795dad707469a0cefcf5d73')), TargetId=ObjectId('676566b861c1f839377400d0'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-26 12:18:59,153 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.21.57.140:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Player[243851281438] Ticket[6795daac07469a0cefcf5d64] is CONFIRMED

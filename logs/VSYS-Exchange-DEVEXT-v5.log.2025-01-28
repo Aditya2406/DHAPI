@@ -1,0 +1,746 @@
+
+INFO # 2025-01-27 19:42:19,047 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-27 19:42:19,049 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-27 19:42:23,184 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-27 19:42:23,185 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-27 19:42:23,186 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-27 19:42:23,188 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-27 19:42:23,202 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-27 19:45:56,262 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/agent/243724576420/myagent/243724576421/wallet/topup : SUB AGENT TOPUP REQUEST
+
+INFO # 2025-01-27 19:45:59,287 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/agent/243724576420/myagent/243724576421/wallet/topup : SUB AGENT TOPUP REQUEST : AUTHORIZED 
+
+INFO # 2025-01-27 19:46:09,236 : VSYS-Exchange-DEVEXT-v5 : Sub Agent Funding Transaction : 243724576420 WALLET BALANCE : 84000 , TOPUP Amount: 500
+
+INFO # 2025-01-27 19:46:11,361 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Channel Agent Funding : 243724576420 -> 243724576421
+
+INFO # 2025-01-27 19:46:12,535 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Channel Agent Funding : 243724576420 -> 243724576421 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-27 19:46:12,536 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Channel Agent Funding : 243724576420 -> 243724576421 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - DEBIT/CREDIT
+
+INFO # 2025-01-27 19:46:16,960 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6797952c75d3b29d79ea2f25'), Created=datetime.datetime(2025, 1, 27, 14, 16, 12, 807100, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-27T15:16:12.807123+01:00', Updated=datetime.datetime(2025, 1, 27, 14, 16, 12, 807421, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-27T15:16:12.807434+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=320, Title='Transaction Successfull', Message='Transaction Successful:\n- ID: 6797952b75d3b29d79ea2f23\n- From: 243724576420\n- To: 243724576421\n- Amount: 500.00\n- Time: 2025-01-27T15:16:11.362216+01:00\n                        ', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6797952b75d3b29d79ea2f23')), TargetId=ObjectId('676567b561c1f839377400d9'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-27 19:46:18,186 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6797953075d3b29d79ea2f26'), Created=datetime.datetime(2025, 1, 27, 14, 16, 16, 963833, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-27T15:16:16.963856+01:00', Updated=datetime.datetime(2025, 1, 27, 14, 16, 16, 963915, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-27T15:16:16.963924+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=320, Title='Transaction Successfull', Message='Transaction Successful:\n- ID: 6797952b75d3b29d79ea2f23\n- From: 243724576420\n- To: 243724576421\n- Amount: 500.00\n- Time: 2025-01-27T15:16:11.362216+01:00\n                        ', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6797952b75d3b29d79ea2f23')), TargetId=ObjectId('676566b861c1f839377400d0'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-27 19:46:43,090 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-27 19:46:43,092 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-27 19:46:44,863 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-27 19:46:44,865 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-27 19:46:44,866 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-27 19:46:44,870 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-27 19:46:44,886 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-27 19:46:47,457 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/agent/243724576420/myagent/243724576421/wallet/topup : SUB AGENT TOPUP REQUEST
+
+INFO # 2025-01-27 19:46:50,435 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/agent/243724576420/myagent/243724576421/wallet/topup : SUB AGENT TOPUP REQUEST : AUTHORIZED 
+
+INFO # 2025-01-27 19:47:00,431 : VSYS-Exchange-DEVEXT-v5 : Sub Agent Funding Transaction : 243724576420 WALLET BALANCE : 83500 , TOPUP Amount: 500
+
+INFO # 2025-01-27 19:47:03,338 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Channel Agent Funding : 243724576420 -> 243724576421
+
+INFO # 2025-01-27 19:47:07,468 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6797956005c4d281a0b15c6e'), Created=datetime.datetime(2025, 1, 27, 14, 17, 4, 779638, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-27T15:17:04.779669+01:00', Updated=datetime.datetime(2025, 1, 27, 14, 17, 4, 779792, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-27T15:17:04.779806+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=320, Title='Transaction Failed', Message='Transaction Failed:\n- From: 243724576420\n- To: 243724576421\n- Amount: 500.00\n- Time: 2025-01-27T15:17:04.775427+01:00\n', Read=False, Meta=TransactionMetaModel(Transaction_Id=None), TargetId=ObjectId('676567b561c1f839377400d9'), TargetType=201, Actions='FAILED')
+
+INFO # 2025-01-27 19:47:07,742 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6797956305c4d281a0b15c6f'), Created=datetime.datetime(2025, 1, 27, 14, 17, 7, 469513, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-27T15:17:07.469527+01:00', Updated=datetime.datetime(2025, 1, 27, 14, 17, 7, 469567, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-27T15:17:07.469573+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=320, Title='Transaction Failed', Message='Transaction Failed:\n- From: 243724576420\n- To: 243724576421\n- Amount: 500.00\n- Time: 2025-01-27T15:17:04.775427+01:00\n', Read=False, Meta=TransactionMetaModel(Transaction_Id=None), TargetId=ObjectId('676566b861c1f839377400d0'), TargetType=201, Actions='FAILED')
+
+ERROR # 2025-01-27 19:47:07,995 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.21.57.140:9000/channel/URETAIL/agent/243724576420/myagent/243724576421/wallet/topup : SUB AGENT TOPUP REQUEST : INTERNAL SERVER ERROR - Transaction Failed
+NoneType: None
+
+INFO # 2025-01-27 19:47:22,022 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-27 19:47:22,023 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-27 19:47:25,161 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-27 19:47:25,162 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-27 19:47:25,163 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-27 19:47:25,164 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-27 19:47:25,174 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 19:05:54,650 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 19:05:54,652 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 19:05:56,178 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 19:05:56,179 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 19:05:56,181 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 19:05:56,182 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 19:05:56,203 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 19:06:51,542 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agentapplication: NEW Agent Application REQUEST
+
+INFO # 2025-01-28 19:06:53,383 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agentapplication: NEW Agent Application REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:06:53,397 : VSYS-Exchange-DEVEXT-v5 : Validating Agent Application Request 100 , Agent Dale Cooper
+
+ERROR # 2025-01-28 19:06:54,847 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agentapplication: NEW Agent Application REQUEST : Unable to Process Agent Application Request : Agent Application with PhoneNumber Already Exist
+NoneType: None
+
+INFO # 2025-01-28 19:08:19,908 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST
+
+INFO # 2025-01-28 19:08:21,451 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:08:21,454 : VSYS-Exchange-DEVEXT-v5 : Validating Create Agent Request FAG , Agent Dale Cooper
+
+ERROR # 2025-01-28 19:08:21,457 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : INTERNAL SERVER ERROR - Unable to Process Create / Update Business Channel Agent Request
+NoneType: None
+
+INFO # 2025-01-28 19:09:16,045 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST
+
+INFO # 2025-01-28 19:09:17,391 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:09:17,393 : VSYS-Exchange-DEVEXT-v5 : Validating Create Agent Request FAG , Agent Dale Cooper
+
+INFO # 2025-01-28 19:11:52,064 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 19:11:52,066 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 19:11:54,368 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 19:11:54,370 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 19:11:54,373 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 19:11:54,375 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 19:11:54,478 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 19:13:43,238 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST
+
+INFO # 2025-01-28 19:13:44,875 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:13:44,878 : VSYS-Exchange-DEVEXT-v5 : Validating Create Agent Request FAG , Agent Dale Cooper
+
+INFO # 2025-01-28 19:16:44,874 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 19:16:44,876 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 19:16:46,344 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 19:16:46,346 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 19:16:46,348 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 19:16:46,349 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 19:16:46,399 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 19:16:49,489 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST
+
+INFO # 2025-01-28 19:16:50,844 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:16:50,846 : VSYS-Exchange-DEVEXT-v5 : Validating Create Agent Request FAG , Agent Dale Cooper
+
+ERROR # 2025-01-28 19:17:26,402 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Unable to Process Create / Update Business Channel Agent Request : Agent Already Exist
+NoneType: None
+
+INFO # 2025-01-28 19:17:41,888 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST
+
+INFO # 2025-01-28 19:17:43,412 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:17:43,418 : VSYS-Exchange-DEVEXT-v5 : Validating Create Agent Request FAG , Agent Dale Cooper
+
+ERROR # 2025-01-28 19:17:44,806 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Unable to Process Create / Update Business Channel Agent Request : 'dict' object has no attribute 'IsPrimary'
+NoneType: None
+
+INFO # 2025-01-28 19:18:34,183 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST
+
+INFO # 2025-01-28 19:18:35,708 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:18:35,710 : VSYS-Exchange-DEVEXT-v5 : Validating Create Agent Request FAG , Agent Dale Cooper
+
+INFO # 2025-01-28 19:33:05,044 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 19:33:05,048 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 19:33:06,310 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 19:33:06,312 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 19:33:06,314 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 19:33:06,315 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 19:33:06,355 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 19:33:13,619 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST
+
+INFO # 2025-01-28 19:33:15,275 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:33:15,278 : VSYS-Exchange-DEVEXT-v5 : Validating Create Agent Request FAG , Agent Dale Cooper
+
+INFO # 2025-01-28 19:33:59,361 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 19:33:59,363 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 19:34:01,017 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 19:34:01,019 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 19:34:01,020 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 19:34:01,022 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 19:34:01,093 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 19:34:02,145 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST
+
+INFO # 2025-01-28 19:34:06,620 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:34:06,623 : VSYS-Exchange-DEVEXT-v5 : Validating Create Agent Request FAG , Agent Dale Cooper
+
+INFO # 2025-01-28 19:34:34,193 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 19:34:34,195 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 19:34:35,490 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 19:34:35,491 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 19:34:35,493 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 19:34:35,494 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 19:34:35,510 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 19:34:38,334 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST
+
+INFO # 2025-01-28 19:34:39,691 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:34:39,693 : VSYS-Exchange-DEVEXT-v5 : Validating Create Agent Request FAG , Agent Dale Cooper
+
+ERROR # 2025-01-28 19:34:41,482 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Unable to Process Create / Update Business Channel Agent Request : Agent Already Exist
+NoneType: None
+
+INFO # 2025-01-28 19:34:52,022 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST
+
+INFO # 2025-01-28 19:34:53,653 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:34:53,656 : VSYS-Exchange-DEVEXT-v5 : Validating Create Agent Request FAG , Agent Dale Cooper
+
+ERROR # 2025-01-28 19:34:55,331 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Unable to Store Document Image Passport of agent application 6798e407b2602699adfefe26 - ExceptionSeverity.CRITICAL : ExceptionReason.USER : Invalid Base64 string
+NoneType: None
+
+INFO # 2025-01-28 19:34:55,423 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Image Saved static/agents_documents/URETAIL/agent_documents/6798e407b2602699adfefe26_photo.jpg
+
+ERROR # 2025-01-28 19:34:55,425 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Profile Image Stored of agent application 6798e407b2602699adfefe26
+NoneType: None
+
+INFO # 2025-01-28 19:34:55,642 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : CREATE SOFT WALLET REQUEST
+
+INFO # 2025-01-28 19:34:57,191 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : CREATE AGENT SOFT WALLET REQUEST : CREATED SUCCESSFULLY
+
+INFO # 2025-01-28 19:34:57,193 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Agent ID: Agent Dale Cooper : Soft Wallet Created
+
+INFO # 2025-01-28 19:34:57,194 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Agent [BusinessChannelAgentDataModel(_id=ObjectId('6798e407b2602699adfefe26'), Created=datetime.datetime(2025, 1, 28, 14, 4, 55, 53052, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:04:55.053080+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 4, 55, 53123, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:04:55.053128+01:00', Deleted=False, BusinessChannelAgentApplicationId=None, BusinessChannelId=ObjectId('6644c30f683d8e3e03e50663'), ExternalAgentId='243724500001', ExternalAgentName='Agent Dale Cooper', ExternalAgentRegion='Kinshasa', ExternalAgentContact='243941481216', ExternalStatus=True, ExternalStatusReason='OK', Gender=1, BirthDate='2024-05-23', ProfilePicture=None, Addresses=[AgentApplicationAddressModel(Country='DRC', Province='Kinsasa', City='Funa District', Commune='Ngiri-Ngiri', Street='123 Main Street', IsVerified=False, IsActive=False, IsPrimary=True)], BusinessName=None, References=[], IdentityDocuments=[AgentApplicationIdentityDocument(DocumentType='Passport', DocumentNumber='P1234567', DocumentImage=None, DocumentExpiry='Fri Dec 13 2024 23:01:20 GMT+0530 (India Standard Time)', IsVerified=False)], CanSellTickets=True, CanWalletDeposit=True, CanWalletWithdraw=True, Contacts=[AgentContact(Type='Phone', Contact='243123756738', IsPrimary=True, IsPublic=False, IsVerified=False, IsActive=False)], Key='cKNOxE7b0vBIAmfBrhNQSaMaY1xgFeqIPUP1mD6Xb51WisAxEZrHMla31EPOSxcmtiVlIzn3vLDJO4eMdixfLw==', SignedCommissionRateSale=0.0, SignedCommissionRateSaleRules=[], SignedCommissionRateDeposit=0.0, SignedCommissionRateWithdraw=0.0, ParentAgentId=None, AgentType='FAG', CanAddSubAgents=False, CanDeleteSubAgents=False, CanChangeStatusOfSubAgents=False, CanTopupSubAgents=False, CanRecallSubAgents=False, GeoLatitude=-47.6065, GeoLongitude=93.1813, GeoLocation='ku', GeoCountry=None, GeoProvince=None, GeoDistrict=None, GeoCommune=None)] Created
+
+INFO # 2025-01-28 19:51:35,224 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 19:51:35,232 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 19:51:36,873 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 19:51:36,875 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 19:51:36,878 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 19:51:36,880 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 19:51:36,935 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 19:51:41,860 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 19:51:41,861 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 19:51:45,370 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 19:51:45,371 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 19:51:46,927 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 19:51:46,928 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 19:51:46,929 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 19:51:46,935 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 19:51:46,968 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 19:53:28,620 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-28 19:53:30,125 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-28 19:53:30,128 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-28 19:53:36,219 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : LEO # 867 by 243851281438 on URETAIL
+NoneType: None
+
+INFO # 2025-01-28 19:53:54,009 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-28 19:53:55,478 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:53:58,609 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-28 19:54:59,641 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-28 19:55:01,255 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:55:04,598 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-28 19:55:33,814 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-28 19:55:35,307 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:55:38,577 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-28 19:55:40,890 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-28 19:55:42,135 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:55:45,197 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-28 19:56:53,264 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-28 19:56:54,672 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:56:58,296 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-28 19:57:56,730 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-28 19:57:58,174 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 19:58:01,479 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 3 Active Game Draws Found
+
+INFO # 2025-01-28 19:58:49,400 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-28 19:58:50,896 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-28 19:58:50,898 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-28 19:58:56,819 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+ERROR # 2025-01-28 19:58:56,821 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched
+
+INFO # 2025-01-28 19:58:58,381 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6798e9a66f37dd87d7041528 [DRAFT] Created Successfully
+
+INFO # 2025-01-28 19:58:58,383 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6798e9a66f37dd87d7041528] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-28 19:59:35,014 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-28 19:59:36,464 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-28 19:59:36,466 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6798e9a66f37dd87d7041528
+
+ERROR # 2025-01-28 19:59:42,729 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Unable to Confirm Ticket : Failed to Confirm Player Ticket
+NoneType: None
+
+INFO # 2025-01-28 20:00:22,730 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-28 20:00:24,405 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-28 20:00:24,407 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6798e9a66f37dd87d7041528
+
+INFO # 2025-01-28 20:01:19,581 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 20:01:19,583 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 20:01:21,082 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 20:01:21,083 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 20:01:21,084 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 20:01:21,085 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 20:01:21,135 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 20:01:25,554 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-28 20:01:28,931 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-28 20:01:28,935 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6798e9a66f37dd87d7041528
+
+INFO # 2025-01-28 20:02:21,463 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 20:02:21,466 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 20:02:23,138 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 20:02:23,139 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 20:02:23,142 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 20:02:23,145 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 20:02:23,227 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 20:02:23,304 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-28 20:02:24,768 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-28 20:02:24,770 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6798e9a66f37dd87d7041528
+
+INFO # 2025-01-28 20:03:11,974 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 20:03:11,977 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 20:03:14,508 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 20:03:14,509 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 20:03:14,511 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 20:03:14,512 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 20:03:14,570 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 20:03:18,512 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-28 20:03:20,174 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-28 20:03:20,177 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6798e9a66f37dd87d7041528
+
+INFO # 2025-01-28 20:03:28,746 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : WITHDRAW FOR SALE REQUEST : 243724500001 : 6798e9a66f37dd87d7041528
+
+INFO # 2025-01-28 20:03:30,788 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798e9a66f37dd87d7041528 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 20:03:30,789 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798e9a66f37dd87d7041528 - WALLET TRANSACTION SUCCESSFUL
+
+INFO # 2025-01-28 20:03:30,968 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001
+
+INFO # 2025-01-28 20:03:33,068 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 20:03:33,069 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - CREDIT
+
+INFO # 2025-01-28 20:03:34,491 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798eabd9fc3cb4945185c5c'), Created=datetime.datetime(2025, 1, 28, 14, 33, 33, 74331, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:33:33.074351+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 33, 33, 74405, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:33:33.074416+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798eaba9fc3cb4945185c58\n- From: 243724500001\n- Ticket: 6798e9a66f37dd87d7041528\n- for: 243851281438\n- Amount: 2000.00\n- Time: 2025-01-28T15:33:30.135944+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798eaba9fc3cb4945185c58')), TargetId=ObjectId('6769f22d29abe35fbaa7706a'), TargetType=100, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 20:03:34,736 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798eabe9fc3cb4945185c5d'), Created=datetime.datetime(2025, 1, 28, 14, 33, 34, 492449, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:33:34.492466+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 33, 34, 492515, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:33:34.492523+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798eaba9fc3cb4945185c58\n- From: 243724500001\n- Ticket: 6798e9a66f37dd87d7041528\n- for: 243851281438\n- Amount: 2000.00\n- Time: 2025-01-28T15:33:30.135944+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798eaba9fc3cb4945185c58')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 20:03:36,227 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798eabe9fc3cb4945185c5f'), Created=datetime.datetime(2025, 1, 28, 14, 33, 34, 739783, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:33:34.739796+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 33, 34, 739823, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:33:34.739826+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=330, Title='Transaction Successfull', Message='Commission Transaction Successful:\n- ID: 6798eabc9fc3cb4945185c5a\n- From: 243724500001\n- Ticket: 6798e9a66f37dd87d7041528\n- for: 243851281438\n- Amount: 140.00\n- Time: 2025-01-28T15:33:32.283501+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798eabc9fc3cb4945185c5a')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 20:03:37,061 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Player[243851281438] Ticket[6798e9a66f37dd87d7041528] is CONFIRMED
+
+INFO # 2025-01-28 20:06:00,341 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 20:06:00,355 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 20:06:02,620 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 20:06:02,622 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 20:06:02,623 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 20:06:02,625 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 20:06:02,725 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 20:06:06,173 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-28 20:06:08,825 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-28 20:06:08,830 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-28 20:06:18,414 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+ERROR # 2025-01-28 20:06:18,416 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched
+
+INFO # 2025-01-28 20:06:20,729 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6798eb5f62960f6c81562129 [DRAFT] Created Successfully
+
+INFO # 2025-01-28 20:06:20,732 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6798eb5f62960f6c81562129] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-28 20:06:28,729 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-28 20:06:30,109 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-28 20:06:30,111 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6798eb5f62960f6c81562129
+
+INFO # 2025-01-28 20:06:40,809 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : WITHDRAW FOR SALE REQUEST : 243724500001 : 6798eb5f62960f6c81562129
+
+INFO # 2025-01-28 20:06:42,812 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798eb5f62960f6c81562129 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 20:06:42,814 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798eb5f62960f6c81562129 - WALLET TRANSACTION SUCCESSFUL
+
+INFO # 2025-01-28 20:06:43,003 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001
+
+INFO # 2025-01-28 20:06:49,603 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 20:06:49,604 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - CREDIT
+
+INFO # 2025-01-28 20:06:51,019 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798eb8162960f6c8156213a'), Created=datetime.datetime(2025, 1, 28, 14, 36, 49, 611197, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:36:49.611214+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 36, 49, 611256, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:36:49.611262+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798eb7a62960f6c81562136\n- From: 243724500001\n- Ticket: 6798eb5f62960f6c81562129\n- for: 243851281438\n- Amount: 2000.00\n- Time: 2025-01-28T15:36:42.097959+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798eb7a62960f6c81562136')), TargetId=ObjectId('6769f22d29abe35fbaa7706a'), TargetType=100, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 20:06:51,239 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798eb8362960f6c8156213b'), Created=datetime.datetime(2025, 1, 28, 14, 36, 51, 20486, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:36:51.020536+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 36, 51, 20583, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:36:51.020589+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798eb7a62960f6c81562136\n- From: 243724500001\n- Ticket: 6798eb5f62960f6c81562129\n- for: 243851281438\n- Amount: 2000.00\n- Time: 2025-01-28T15:36:42.097959+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798eb7a62960f6c81562136')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 20:06:52,551 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798eb8362960f6c8156213d'), Created=datetime.datetime(2025, 1, 28, 14, 36, 51, 243453, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:36:51.243474+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 36, 51, 243521, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:36:51.243529+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=330, Title='Transaction Successfull', Message='Commission Transaction Successful:\n- ID: 6798eb7c62960f6c81562138\n- From: 243724500001\n- Ticket: 6798eb5f62960f6c81562129\n- for: 243851281438\n- Amount: 140.00\n- Time: 2025-01-28T15:36:44.482511+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798eb7c62960f6c81562138')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 20:06:53,348 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Player[243851281438] Ticket[6798eb5f62960f6c81562129] is CONFIRMED
+
+INFO # 2025-01-28 20:08:13,902 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 20:08:13,912 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 20:08:16,363 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 20:08:16,364 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 20:08:16,365 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 20:08:16,366 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 20:08:16,386 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 20:08:23,497 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-28 20:08:24,862 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-28 20:08:24,864 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-28 20:08:31,163 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+ERROR # 2025-01-28 20:08:31,164 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched
+
+INFO # 2025-01-28 20:08:32,881 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6798ebe46d69b09e708b6003 [DRAFT] Created Successfully
+
+INFO # 2025-01-28 20:08:32,883 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6798ebe46d69b09e708b6003] Created with Ticket Price as 2000.0
+
+INFO # 2025-01-28 20:08:44,184 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-28 20:08:45,638 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-28 20:08:45,639 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6798ebe46d69b09e708b6003
+
+INFO # 2025-01-28 20:08:55,144 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : WITHDRAW FOR SALE REQUEST : 243724500001 : 6798ebe46d69b09e708b6003
+
+INFO # 2025-01-28 20:08:57,150 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798ebe46d69b09e708b6003 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 20:08:57,151 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798ebe46d69b09e708b6003 - WALLET TRANSACTION SUCCESSFUL
+
+INFO # 2025-01-28 20:08:57,480 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001
+
+INFO # 2025-01-28 20:08:59,452 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 20:08:59,453 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - CREDIT
+
+INFO # 2025-01-28 20:09:00,988 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798ec036d69b09e708b6014'), Created=datetime.datetime(2025, 1, 28, 14, 38, 59, 456437, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:38:59.456468+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 38, 59, 456519, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:38:59.456523+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798ec006d69b09e708b6010\n- From: 243724500001\n- Ticket: 6798ebe46d69b09e708b6003\n- for: 243851281438\n- Amount: 2000.00\n- Time: 2025-01-28T15:38:56.503817+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798ec006d69b09e708b6010')), TargetId=ObjectId('6769f22d29abe35fbaa7706a'), TargetType=100, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 20:09:01,183 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798ec046d69b09e708b6015'), Created=datetime.datetime(2025, 1, 28, 14, 39, 0, 989309, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:39:00.989326+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 39, 0, 989378, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:39:00.989381+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798ec006d69b09e708b6010\n- From: 243724500001\n- Ticket: 6798ebe46d69b09e708b6003\n- for: 243851281438\n- Amount: 2000.00\n- Time: 2025-01-28T15:38:56.503817+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798ec006d69b09e708b6010')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 20:09:02,668 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798ec056d69b09e708b6017'), Created=datetime.datetime(2025, 1, 28, 14, 39, 1, 185828, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:39:01.185841+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 39, 1, 185866, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:39:01.185868+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=330, Title='Transaction Successfull', Message='Commission Transaction Successful:\n- ID: 6798ec026d69b09e708b6012\n- From: 243724500001\n- Ticket: 6798ebe46d69b09e708b6003\n- for: 243851281438\n- Amount: 140.00\n- Time: 2025-01-28T15:38:58.834508+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798ec026d69b09e708b6012')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 20:09:03,334 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Player[243851281438] Ticket[6798ebe46d69b09e708b6003] is CONFIRMED
+
+INFO # 2025-01-28 20:09:38,915 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-28 20:09:40,431 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-28 20:09:40,433 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-28 20:09:47,082 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched
+
+INFO # 2025-01-28 20:09:49,236 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6798ec306d69b09e708b601e [DRAFT] Created Successfully
+
+INFO # 2025-01-28 20:09:49,237 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6798ec306d69b09e708b601e] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-28 20:10:03,980 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-28 20:10:05,418 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-28 20:10:05,419 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6798ec306d69b09e708b601e
+
+INFO # 2025-01-28 20:10:15,961 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : WITHDRAW FOR SALE REQUEST : 243724500001 : 6798ec306d69b09e708b601e
+
+INFO # 2025-01-28 20:10:18,016 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798ec306d69b09e708b601e - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 20:10:18,017 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798ec306d69b09e708b601e - WALLET TRANSACTION SUCCESSFUL
+
+INFO # 2025-01-28 20:10:18,301 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001
+
+INFO # 2025-01-28 20:10:20,316 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 20:10:20,317 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - CREDIT
+
+INFO # 2025-01-28 20:10:21,640 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798ec546d69b09e708b602f'), Created=datetime.datetime(2025, 1, 28, 14, 40, 20, 319370, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:40:20.319381+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 40, 20, 319404, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:40:20.319406+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798ec516d69b09e708b602b\n- From: 243724500001\n- Ticket: 6798ec306d69b09e708b601e\n- for: 243851281438\n- Amount: 1000.00\n- Time: 2025-01-28T15:40:17.341988+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798ec516d69b09e708b602b')), TargetId=ObjectId('6769f22d29abe35fbaa7706a'), TargetType=100, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 20:10:21,877 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798ec556d69b09e708b6030'), Created=datetime.datetime(2025, 1, 28, 14, 40, 21, 641841, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:40:21.641862+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 40, 21, 641912, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:40:21.641920+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798ec516d69b09e708b602b\n- From: 243724500001\n- Ticket: 6798ec306d69b09e708b601e\n- for: 243851281438\n- Amount: 1000.00\n- Time: 2025-01-28T15:40:17.341988+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798ec516d69b09e708b602b')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 20:10:24,516 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798ec556d69b09e708b6032'), Created=datetime.datetime(2025, 1, 28, 14, 40, 21, 879199, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T15:40:21.879211+01:00', Updated=datetime.datetime(2025, 1, 28, 14, 40, 21, 879239, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T15:40:21.879241+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=330, Title='Transaction Successfull', Message='Commission Transaction Successful:\n- ID: 6798ec536d69b09e708b602d\n- From: 243724500001\n- Ticket: 6798ec306d69b09e708b601e\n- for: 243851281438\n- Amount: 150.00\n- Time: 2025-01-28T15:40:19.645789+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798ec536d69b09e708b602d')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 20:10:25,321 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Player[243851281438] Ticket[6798ec306d69b09e708b601e] is CONFIRMED
+
+INFO # 2025-01-28 21:09:38,185 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-28 21:09:39,310 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 21:09:41,911 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 0 Active Game Draws Found
+
+INFO # 2025-01-28 21:11:33,159 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST
+
+INFO # 2025-01-28 21:11:34,371 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : AUTHORIZED 
+
+INFO # 2025-01-28 21:11:40,943 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.25.125.115:9000/channel/URETAIL/games/openDraws/ : OPEN GAME DRAWS LIST REQUEST : 3 Active Game Draws Found
+
+INFO # 2025-01-28 21:14:18,841 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-28 21:14:21,036 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-28 21:14:21,038 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-28 21:14:27,093 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : LEO # 874 by 243851281438 on URETAIL
+NoneType: None
+
+INFO # 2025-01-28 21:14:55,903 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-28 21:14:57,019 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-28 21:14:57,021 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-28 21:15:02,897 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode Direct6 fetched
+
+ERROR # 2025-01-28 21:15:02,898 : VSYS-Exchange-DEVEXT-v5 : Ticket BetOption with BetCode 6/50LastTwoBallOdd fetched
+
+INFO # 2025-01-28 21:15:04,134 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6798fb7b6d69b09e708b6047 [DRAFT] Created Successfully
+
+INFO # 2025-01-28 21:15:04,136 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6798fb7b6d69b09e708b6047] Created with Ticket Price as 3000.0
+
+INFO # 2025-01-28 21:15:36,960 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-28 21:15:38,130 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-28 21:15:38,132 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6798fb7b6d69b09e708b6047
+
+INFO # 2025-01-28 21:15:45,234 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : WITHDRAW FOR SALE REQUEST : 243724500001 : 6798fb7b6d69b09e708b6047
+
+INFO # 2025-01-28 21:15:46,851 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798fb7b6d69b09e708b6047 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 21:15:46,852 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798fb7b6d69b09e708b6047 - WALLET TRANSACTION SUCCESSFUL
+
+INFO # 2025-01-28 21:15:47,031 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001
+
+INFO # 2025-01-28 21:15:48,642 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 21:15:48,643 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - CREDIT
+
+INFO # 2025-01-28 21:15:49,671 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798fbac6d69b09e708b6058'), Created=datetime.datetime(2025, 1, 28, 15, 45, 48, 646220, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T16:45:48.646239+01:00', Updated=datetime.datetime(2025, 1, 28, 15, 45, 48, 646284, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T16:45:48.646290+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798fbaa6d69b09e708b6054\n- From: 243724500001\n- Ticket: 6798fb7b6d69b09e708b6047\n- for: 243851281438\n- Amount: 3000.00\n- Time: 2025-01-28T16:45:46.328178+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798fbaa6d69b09e708b6054')), TargetId=ObjectId('6769f22d29abe35fbaa7706a'), TargetType=100, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 21:15:49,839 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798fbad6d69b09e708b6059'), Created=datetime.datetime(2025, 1, 28, 15, 45, 49, 671795, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T16:45:49.671813+01:00', Updated=datetime.datetime(2025, 1, 28, 15, 45, 49, 671848, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T16:45:49.671853+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798fbaa6d69b09e708b6054\n- From: 243724500001\n- Ticket: 6798fb7b6d69b09e708b6047\n- for: 243851281438\n- Amount: 3000.00\n- Time: 2025-01-28T16:45:46.328178+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798fbaa6d69b09e708b6054')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 21:15:50,940 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798fbad6d69b09e708b605b'), Created=datetime.datetime(2025, 1, 28, 15, 45, 49, 841257, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T16:45:49.841277+01:00', Updated=datetime.datetime(2025, 1, 28, 15, 45, 49, 841320, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T16:45:49.841326+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=330, Title='Transaction Successfull', Message='Commission Transaction Successful:\n- ID: 6798fbac6d69b09e708b6056\n- From: 243724500001\n- Ticket: 6798fb7b6d69b09e708b6047\n- for: 243851281438\n- Amount: 210.00\n- Time: 2025-01-28T16:45:48.121540+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798fbac6d69b09e708b6056')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 21:15:51,474 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Player[243851281438] Ticket[6798fb7b6d69b09e708b6047] is CONFIRMED
+
+INFO # 2025-01-28 21:16:53,828 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-28 21:16:55,010 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-28 21:16:55,012 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-28 21:16:59,940 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Unable to Process Create / Update Ticket Request : Invalid | Expired Game Draw Code : SBL # 685 by 243851281438 on URETAIL
+NoneType: None
+
+INFO # 2025-01-28 21:17:13,423 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-28 21:17:14,664 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-28 21:17:14,666 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-28 21:17:19,843 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched
+
+INFO # 2025-01-28 21:17:20,917 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6798fc056d69b09e708b606a [DRAFT] Created Successfully
+
+INFO # 2025-01-28 21:17:20,919 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6798fc056d69b09e708b606a] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-28 21:17:30,508 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-28 21:17:31,662 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-28 21:17:31,663 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6798fc056d69b09e708b606a
+
+INFO # 2025-01-28 21:17:39,710 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : WITHDRAW FOR SALE REQUEST : 243724500001 : 6798fc056d69b09e708b606a
+
+INFO # 2025-01-28 21:17:41,345 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798fc056d69b09e708b606a - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 21:17:41,345 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798fc056d69b09e708b606a - WALLET TRANSACTION SUCCESSFUL
+
+INFO # 2025-01-28 21:17:41,526 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001
+
+INFO # 2025-01-28 21:17:43,117 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 21:17:43,118 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - CREDIT
+
+INFO # 2025-01-28 21:17:44,238 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798fc1f6d69b09e708b607b'), Created=datetime.datetime(2025, 1, 28, 15, 47, 43, 119938, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T16:47:43.119951+01:00', Updated=datetime.datetime(2025, 1, 28, 15, 47, 43, 119978, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T16:47:43.119981+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798fc1c6d69b09e708b6077\n- From: 243724500001\n- Ticket: 6798fc056d69b09e708b606a\n- for: 243851281438\n- Amount: 1000.00\n- Time: 2025-01-28T16:47:40.839360+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798fc1c6d69b09e708b6077')), TargetId=ObjectId('6769f22d29abe35fbaa7706a'), TargetType=100, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 21:17:44,527 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798fc206d69b09e708b607c'), Created=datetime.datetime(2025, 1, 28, 15, 47, 44, 239336, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T16:47:44.239354+01:00', Updated=datetime.datetime(2025, 1, 28, 15, 47, 44, 239423, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T16:47:44.239452+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798fc1c6d69b09e708b6077\n- From: 243724500001\n- Ticket: 6798fc056d69b09e708b606a\n- for: 243851281438\n- Amount: 1000.00\n- Time: 2025-01-28T16:47:40.839360+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798fc1c6d69b09e708b6077')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 21:17:45,886 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798fc206d69b09e708b607e'), Created=datetime.datetime(2025, 1, 28, 15, 47, 44, 531387, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T16:47:44.531406+01:00', Updated=datetime.datetime(2025, 1, 28, 15, 47, 44, 531446, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T16:47:44.531451+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=330, Title='Transaction Successfull', Message='Commission Transaction Successful:\n- ID: 6798fc1e6d69b09e708b6079\n- From: 243724500001\n- Ticket: 6798fc056d69b09e708b606a\n- for: 243851281438\n- Amount: 150.00\n- Time: 2025-01-28T16:47:42.609335+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798fc1e6d69b09e708b6079')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 21:17:46,399 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Player[243851281438] Ticket[6798fc056d69b09e708b606a] is CONFIRMED
+
+INFO # 2025-01-28 21:20:10,916 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-28 21:20:10,918 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-28 21:20:12,802 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-28 21:20:12,804 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-28 21:20:12,806 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-28 21:20:12,808 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-28 21:20:12,889 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-28 21:20:59,000 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE
+
+INFO # 2025-01-28 21:21:00,199 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : AUTHORIZED 
+
+INFO # 2025-01-28 21:21:00,206 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Create Request for 243851281438/ [/] 
+
+ERROR # 2025-01-28 21:21:05,747 : VSYS-Exchange-DEVEXT-v5 : Ticket default BetOption with BetCode Direct6 fetched
+
+INFO # 2025-01-28 21:21:06,849 : VSYS-Exchange-DEVEXT-v5 : Player 243851281438 Ticket 6798fce6adb67101c6edb79e [DRAFT] Created Successfully
+
+INFO # 2025-01-28 21:21:06,851 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - CREATE / UPDATE : Player[243851281438] Ticket[6798fce6adb67101c6edb79e] Created with Ticket Price as 1000.0
+
+INFO # 2025-01-28 21:21:13,398 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm
+
+INFO # 2025-01-28 21:21:14,522 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : AUTHORIZED 
+
+INFO # 2025-01-28 21:21:14,524 : VSYS-Exchange-DEVEXT-v5 : Validating Player Ticket Confirm Request for 243851281438/ [/] - 6798fce6adb67101c6edb79e
+
+INFO # 2025-01-28 21:21:21,653 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : WITHDRAW FOR SALE REQUEST : 243724500001 : 6798fce6adb67101c6edb79e
+
+INFO # 2025-01-28 21:21:23,325 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798fce6adb67101c6edb79e - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 21:21:23,327 : VSYS-Exchange-DEVEXT-v5 : LOG TRANSACTION : WITHDRAW FOR SALE REQUEST : SUCCESS : 243724500001 : 6798fce6adb67101c6edb79e - WALLET TRANSACTION SUCCESSFUL
+
+INFO # 2025-01-28 21:21:23,508 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001
+
+INFO # 2025-01-28 21:21:25,191 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL
+
+INFO # 2025-01-28 21:21:25,193 : VSYS-Exchange-DEVEXT-v5 : TRANSACTION : Commission : Agent 243724500001 Mobile Wallet -> 243724500001 - WALLET TRANSACTION CLOSING UPDATE SUCCESSFUL - WALLET TRANSACTION SUCCESSFUL - CREDIT
+
+INFO # 2025-01-28 21:21:26,302 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798fcfdadb67101c6edb7af'), Created=datetime.datetime(2025, 1, 28, 15, 51, 25, 198613, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T16:51:25.198632+01:00', Updated=datetime.datetime(2025, 1, 28, 15, 51, 25, 198676, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T16:51:25.198706+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798fcfaadb67101c6edb7ab\n- From: 243724500001\n- Ticket: 6798fce6adb67101c6edb79e\n- for: 243851281438\n- Amount: 1000.00\n- Time: 2025-01-28T16:51:22.801377+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798fcfaadb67101c6edb7ab')), TargetId=ObjectId('6769f22d29abe35fbaa7706a'), TargetType=100, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 21:21:26,473 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798fcfeadb67101c6edb7b0'), Created=datetime.datetime(2025, 1, 28, 15, 51, 26, 303773, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T16:51:26.303791+01:00', Updated=datetime.datetime(2025, 1, 28, 15, 51, 26, 303828, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T16:51:26.303832+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=202, Title='Transaction Successfull', Message='Ticket Sale Transaction Successful:\n- ID: 6798fcfaadb67101c6edb7ab\n- From: 243724500001\n- Ticket: 6798fce6adb67101c6edb79e\n- for: 243851281438\n- Amount: 1000.00\n- Time: 2025-01-28T16:51:22.801377+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798fcfaadb67101c6edb7ab')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 21:21:28,105 : VSYS-Exchange-DEVEXT-v5 :  SYSTEM NOTIFICATION : CREATED SUCCESSFULLY SysNotificationModel(_id=ObjectId('6798fcfeadb67101c6edb7b2'), Created=datetime.datetime(2025, 1, 28, 15, 51, 26, 483218, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-28T16:51:26.483236+01:00', Updated=datetime.datetime(2025, 1, 28, 15, 51, 26, 483274, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-28T16:51:26.483282+01:00', Deleted=False, BusinessChannel='URETAIL', TransactionType=330, Title='Transaction Successfull', Message='Commission Transaction Successful:\n- ID: 6798fcfcadb67101c6edb7ad\n- From: 243724500001\n- Ticket: 6798fce6adb67101c6edb79e\n- for: 243851281438\n- Amount: 50.00\n- Time: 2025-01-28T16:51:24.662222+01:00', Read=False, Meta=TransactionMetaModel(Transaction_Id=ObjectId('6798fcfcadb67101c6edb7ad')), TargetId=ObjectId('6798e407b2602699adfefe26'), TargetType=201, Actions='SUCCESSFULL')
+
+INFO # 2025-01-28 21:21:28,662 : VSYS-Exchange-DEVEXT-v5 : PUT::http://172.25.125.115:9000/channel/URETAIL/player/243851281438/tickets : GAME DRAW TICKET REQUEST - UPDATE to Confirm : Player[243851281438] Ticket[6798fce6adb67101c6edb79e] is CONFIRMED

@@ -1,0 +1,14 @@
+
+INFO # 2025-01-28 18:50:45,891 : Sys-Exchange-DEV : Configuration and Constants Loaded
+
+INFO # 2025-01-28 18:50:46,146 : Sys-Exchange-DEV : Beginning Validation of Startup Arguments
+
+ERROR # 2025-01-28 18:50:51,367 : Sys-Exchange-DEV : Database Connection Test - Failed
+NoneType: None
+
+INFO # 2025-01-28 19:00:23,900 : Sys-Exchange-DEV : Configuration and Constants Loaded
+
+INFO # 2025-01-28 19:00:24,112 : Sys-Exchange-DEV : Beginning Validation of Startup Arguments
+
+ERROR # 2025-01-28 19:00:29,379 : Sys-Exchange-DEV : Database Connection Test - Failed
+NoneType: None

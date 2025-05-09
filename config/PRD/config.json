@@ -1,0 +1,9 @@
+{
+    "Application": {
+        "Title": "ARIS EdgeServer",
+        "SubTitle": "ARIS Hardware API Server",
+        "PublicPortal": "http://",
+        "CertificateKeyLocation": "/system/keys/cclkeys/cclexchangekeys",
+        "SystemMode": "PRODUCTION"
+    }
+}

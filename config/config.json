@@ -1,0 +1,12 @@
+{
+    "DatabaseConfiguration": {
+        "Status": "Active",
+        "DatabaseServerType": "MONGO_DB",
+        "Server": "192.168.110.1",
+        "ServerPort": 27017,
+        "User": "",
+        "Password": "",
+        "Database": "Cache",
+        "AuthDatabase": ""
+    }
+}

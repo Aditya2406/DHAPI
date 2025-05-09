@@ -1,0 +1,425 @@
+
+INFO # 2025-02-03 19:51:54,113 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 19:51:54,116 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 19:51:55,528 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 19:51:55,530 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 19:51:55,532 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 19:51:55,533 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 19:51:55,555 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 19:56:56,131 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 19:56:56,136 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 19:56:58,107 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 19:56:58,110 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 19:56:58,113 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 19:56:58,129 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 19:56:58,182 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 19:57:20,622 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 19:57:20,623 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 19:57:22,159 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 19:57:22,160 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 19:57:22,161 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 19:57:22,162 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 19:57:22,203 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 19:57:45,543 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 19:57:45,546 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 19:57:47,663 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 19:57:47,665 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 19:57:47,667 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 19:57:47,669 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 19:57:47,692 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 19:57:58,218 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.27.111.213:9000/channel/URETAIL/agent/243724576420/transactions?PAGESIZE=20&PAGENUMBER=1&SHOWSUMMARY=True : TRANSACTION RECORD REQUEST
+
+INFO # 2025-02-03 19:57:59,985 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.27.111.213:9000/channel/URETAIL/agent/243724576420/transactions?PAGESIZE=20&PAGENUMBER=1&SHOWSUMMARY=True : TRANSACTION RECORD REQUEST : AUTHORIZED 
+
+ERROR # 2025-02-03 19:58:02,857 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.27.111.213:9000/channel/URETAIL/agent/243724576420/transactions?PAGESIZE=20&PAGENUMBER=1&SHOWSUMMARY=True : TRANSACTION RECORD REQUEST : FROMDATE and TODATE is required with SHOWSUMMARY
+NoneType: None
+
+INFO # 2025-02-03 19:58:35,340 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.111.213:9000/channel/URETAIL/agent/243724576420/myAgents?PAGESIZE=20&PAGENUMBER=1 : SUB AGENTS RECORD REQUEST
+
+INFO # 2025-02-03 19:58:36,901 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.111.213:9000/channel/URETAIL/agent/243724576420/myAgents?PAGESIZE=20&PAGENUMBER=1 : SUB AGENTS RECORD REQUEST : AUTHORIZED 
+
+INFO # 2025-02-03 19:58:49,756 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.111.213:9000/channel/URETAIL/agent/243724576420/myAgents?PAGESIZE=20&PAGENUMBER=1 : SUB AGENTS RECORD REQUEST : Sub Agents List Provided : Page No. : 1, Page Size : 20, From Date :2025-02-01 00:00:00+00:00 , To Date :,  Records : 1
+
+INFO # 2025-02-03 19:59:53,970 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 19:59:53,976 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 19:59:55,785 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 19:59:55,786 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 19:59:55,792 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 19:59:55,794 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 19:59:55,853 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:00:05,067 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:00:05,071 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:00:06,651 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:00:06,653 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:00:06,655 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:00:06,657 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:00:06,686 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:00:18,016 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:00:18,017 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:00:19,655 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:00:19,656 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:00:19,657 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:00:19,658 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:00:19,674 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:00:38,391 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.111.213:9000/channel/URETAIL/agent/243724576420/myAgents?PAGESIZE=20&PAGENUMBER=1&SHOWALL=True : SUB AGENTS RECORD REQUEST
+
+INFO # 2025-02-03 20:00:39,831 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.111.213:9000/channel/URETAIL/agent/243724576420/myAgents?PAGESIZE=20&PAGENUMBER=1&SHOWALL=True : SUB AGENTS RECORD REQUEST : AUTHORIZED 
+
+INFO # 2025-02-03 20:00:48,876 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.111.213:9000/channel/URETAIL/agent/243724576420/myAgents?PAGESIZE=20&PAGENUMBER=1&SHOWALL=True : SUB AGENTS RECORD REQUEST : Sub Agents List Provided : Page No. : 1, Page Size : 20, From Date :2025-02-01 00:00:00+00:00 , To Date :,  Records : 2
+
+INFO # 2025-02-03 20:04:41,439 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:04:41,464 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:04:42,999 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:04:43,014 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:04:43,023 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:04:43,035 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:04:43,073 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:07:25,244 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:07:25,246 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:07:26,674 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:07:26,675 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:07:26,676 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:07:26,678 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:07:26,715 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:11:13,220 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:11:13,223 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:11:14,398 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:11:14,400 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:11:14,401 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:11:14,403 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:11:14,435 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:47:59,023 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:47:59,025 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:48:00,937 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:48:00,938 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:48:00,939 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:48:00,941 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:48:00,979 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:48:17,537 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:48:17,539 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:48:19,065 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:48:19,067 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:48:19,069 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:48:19,071 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:48:19,092 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:48:37,187 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:48:37,189 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:48:38,687 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:48:38,694 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:48:38,698 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:48:38,707 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:48:38,776 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:48:54,711 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:48:54,714 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:48:56,259 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:48:56,262 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:48:56,265 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:48:56,269 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:48:56,303 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:49:06,827 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:49:06,830 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:49:08,394 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:49:08,395 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:49:08,396 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:49:08,398 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:49:08,423 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:49:50,158 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:49:50,163 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:49:51,619 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:49:51,623 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:49:51,627 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:49:51,629 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:49:51,684 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:49:55,388 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:49:55,390 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:49:56,896 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:49:56,898 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:49:56,899 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:49:56,900 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:49:56,919 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:50:24,152 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:50:24,159 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:50:25,669 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:50:25,672 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:50:25,677 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:50:25,682 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:50:25,720 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:51:40,948 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:51:40,949 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:51:42,654 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:51:42,655 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:51:42,656 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:51:42,657 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:51:42,672 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:51:59,752 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:51:59,758 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:52:01,164 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:52:01,166 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:52:01,168 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:52:01,177 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:52:01,216 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:53:25,074 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:53:25,076 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:53:27,939 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:53:27,941 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:53:27,943 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:53:27,944 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:53:27,973 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:53:44,533 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:53:44,535 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:53:46,128 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:53:46,131 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:53:46,132 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:53:46,135 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:53:46,157 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:54:03,531 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:54:03,532 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:54:05,463 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:54:05,464 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:54:05,466 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:54:05,466 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:54:05,494 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:54:18,815 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:54:18,818 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:54:20,423 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:54:20,425 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:54:20,427 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:54:20,428 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:54:20,451 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:54:48,973 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:54:48,979 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:54:50,767 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:54:50,768 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:54:50,769 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:54:50,770 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:54:50,788 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:55:14,112 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:55:14,113 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:55:15,882 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:55:15,883 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:55:15,884 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:55:15,885 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:55:15,903 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:55:25,416 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:55:25,417 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:55:27,325 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:55:27,327 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:55:27,328 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:55:27,329 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:55:27,351 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:55:37,853 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:55:37,858 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:55:39,320 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:55:39,321 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:55:39,322 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:55:39,323 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:55:39,338 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-02-03 20:56:15,438 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-02-03 20:56:15,440 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-02-03 20:56:17,319 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-02-03 20:56:17,320 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-02-03 20:56:17,323 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-02-03 20:56:17,328 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-02-03 20:56:17,369 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started

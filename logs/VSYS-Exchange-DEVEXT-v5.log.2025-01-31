@@ -1,0 +1,338 @@
+
+INFO # 2025-01-29 21:39:06,530 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-29 21:39:06,538 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-29 21:39:10,412 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-29 21:39:10,414 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-29 21:39:10,416 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-29 21:39:10,417 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-29 21:39:10,471 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-29 21:40:12,917 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST
+
+INFO # 2025-01-29 21:40:14,762 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : AUTHORIZED 
+
+ERROR # 2025-01-29 21:41:13,848 : VSYS-Exchange-DEVEXT-v5 : Authentication Failed : Unable to Authenticate Agent
+NoneType: None
+
+INFO # 2025-01-29 21:42:01,042 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agentapplication: NEW Agent Application REQUEST
+
+INFO # 2025-01-29 21:42:04,453 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agentapplication: NEW Agent Application REQUEST : AUTHORIZED 
+
+INFO # 2025-01-29 21:42:04,473 : VSYS-Exchange-DEVEXT-v5 : Validating Agent Application Request 100 , Agent Dale Cooper
+
+INFO # 2025-01-29 21:42:12,474 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agentapplication: NEW Agent Application REQUEST : Image Saved static/agents_documents/URETAIL/agent_applications_documents/679a5357c2185dfd897da61b_Passport.jpg
+
+ERROR # 2025-01-29 21:42:12,476 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agentapplication: NEW Agent Application REQUEST : Document Image Stored Passport of agent application 679a5357c2185dfd897da61b
+NoneType: None
+
+ERROR # 2025-01-29 21:42:12,510 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agentapplication: NEW Agent Application REQUEST : Unable to Store Profile Image of agent application 679a5357c2185dfd897da61b - ExceptionSeverity.CRITICAL : ExceptionReason.USER : Invalid Base64 string
+NoneType: None
+
+INFO # 2025-01-29 21:42:12,743 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agentapplication: NEW Agent Application REQUEST : Agent Application [AgentApplicationDataModel(_id=ObjectId('679a5357c2185dfd897da61b'), Created=datetime.datetime(2025, 1, 29, 16, 12, 7, 933791, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-29T17:12:07.933819+01:00', Updated=datetime.datetime(2025, 1, 29, 16, 12, 7, 933843, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-29T17:12:07.933846+01:00', Deleted=False, ChannelId=ObjectId('6644c30f683d8e3e03e50663'), ChannelCode='URETAIL', ApplicationType=100, FullName='Agent Dale Cooper', Gender=1, BirthDate=datetime.datetime(2002, 6, 28, 0, 0), ProfilePicture=None, Contacts=[AgentApplicationContactModel(Type='Phone', Contact='243120756211', IsPrimary=False, IsPublic=False, IsVerified=False, IsActive=False)], Addresses=[AgentApplicationAddressModel(Country='DRC', Province='Kinsasa', City='Funa District', Commune='Ngiri-Ngiri', Street='123 Main Street', IsVerified=False, IsActive=False, IsPrimary=False)], BusinessName=None, References=[], IdentityDocuments=[AgentApplicationIdentityDocument(DocumentType='Passport', DocumentNumber='P1234567', DocumentImage='static/agents_documents/URETAIL/agent_applications_documents/679a5357c2185dfd897da61b_Passport.jpg', DocumentExpiry='Mon May 27 2024 23:50:02 GMT+0530 (India Standard Time)', IsVerified=False)], GeoLatitude=52.8728, GeoLongitude=-17.4923, GeoLocation='gu', ApplicationStatus='Received', ApplicationStatusUpdatedBy=None, BusinessChannelAgentId=None)] Created
+
+INFO # 2025-01-29 21:42:38,148 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST
+
+INFO # 2025-01-29 21:42:40,739 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : AUTHORIZED 
+
+INFO # 2025-01-29 21:42:40,742 : VSYS-Exchange-DEVEXT-v5 : Validating Create Agent Request FAG , Agent Dale Cooper
+
+ERROR # 2025-01-29 21:42:43,493 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Unable to Store Document Image Passport of agent application 679a537bc2185dfd897da61f - ExceptionSeverity.CRITICAL : ExceptionReason.USER : Invalid Base64 string
+NoneType: None
+
+INFO # 2025-01-29 21:42:43,526 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Image Saved static/agents_documents/URETAIL/agent_documents/679a537bc2185dfd897da61f_photo.jpg
+
+ERROR # 2025-01-29 21:42:43,530 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Profile Image Stored of agent application 679a537bc2185dfd897da61f
+NoneType: None
+
+INFO # 2025-01-29 21:42:43,901 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : CREATE SOFT WALLET REQUEST
+
+INFO # 2025-01-29 21:42:48,055 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : CREATE AGENT SOFT WALLET REQUEST : CREATED SUCCESSFULLY
+
+INFO # 2025-01-29 21:42:48,057 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Agent ID: Agent Dale Cooper : Soft Wallet Created
+
+INFO # 2025-01-29 21:42:48,059 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/ : NEW AGENT REQUEST : Agent [BusinessChannelAgentDataModel(_id=ObjectId('679a537bc2185dfd897da61f'), Created=datetime.datetime(2025, 1, 29, 16, 12, 43, 286729, tzinfo=datetime.timezone.utc), CreatedStr='2025-01-29T17:12:43.286745+01:00', Updated=datetime.datetime(2025, 1, 29, 16, 12, 43, 286770, tzinfo=datetime.timezone.utc), UpdatedStr='2025-01-29T17:12:43.286773+01:00', Deleted=False, BusinessChannelAgentApplicationId=None, BusinessChannelId=ObjectId('6644c30f683d8e3e03e50663'), ExternalAgentId='243724000001', ExternalAgentName='Agent Dale Cooper', ExternalAgentRegion='Kinshasa', ExternalAgentContact='243941481216', ExternalStatus=True, ExternalStatusReason='OK', Gender=1, BirthDate='2024-05-23', ProfilePicture=None, Addresses=[AgentApplicationAddressModel(Country='DRC', Province='Kinsasa', City='Funa District', Commune='Ngiri-Ngiri', Street='123 Main Street', IsVerified=False, IsActive=False, IsPrimary=True)], BusinessName=None, References=[], IdentityDocuments=[AgentApplicationIdentityDocument(DocumentType='Passport', DocumentNumber='P1234567', DocumentImage=None, DocumentExpiry='Sat Mar 02 2024 17:01:41 GMT+0530 (India Standard Time)', IsVerified=False)], CanSellTickets=True, CanWalletDeposit=True, CanWalletWithdraw=True, Contacts=[AgentContact(Type='Phone', Contact='243123756738', IsPrimary=True, IsPublic=False, IsVerified=False, IsActive=False)], Key='EnB7Wtt9sJxDjVTnLKXEveArNak+D/ENZbJD1R16UF6CiRqrz+3K7wVC7gq66sVlUYCP5N1zgkV64lceF3ejQQ==', SignedCommissionRateSale=0.0, SignedCommissionRateSaleRules=[], SignedCommissionRateDeposit=0.0, SignedCommissionRateWithdraw=0.0, ParentAgentId=None, AgentType='FAG', CanAddSubAgents=False, CanDeleteSubAgents=False, CanChangeStatusOfSubAgents=False, CanTopupSubAgents=False, CanRecallSubAgents=False, GeoLatitude=-25.039, GeoLongitude=-123.3474, GeoLocation='th', GeoCountry=None, GeoProvince=None, GeoDistrict=None, GeoCommune=None)] Created
+
+INFO # 2025-01-29 21:43:20,832 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST
+
+INFO # 2025-01-29 21:43:24,016 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : AUTHORIZED 
+
+INFO # 2025-01-29 21:43:30,551 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : Agent [243724000001] Logged in Successfully, Session Token Created
+
+INFO # 2025-01-30 19:36:00,937 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-30 19:36:00,938 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-30 19:36:02,179 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-30 19:36:02,181 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-30 19:36:02,182 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-30 19:36:02,183 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-30 19:36:02,203 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-30 19:36:25,499 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST
+
+INFO # 2025-01-30 19:36:26,806 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : AUTHORIZED 
+
+INFO # 2025-01-30 19:36:29,475 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : Agent [243724000001] Logged in Successfully, Session Token Created
+
+INFO # 2025-01-30 19:37:50,918 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST
+
+INFO # 2025-01-30 19:37:52,057 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : AUTHORIZED 
+
+INFO # 2025-01-30 19:37:54,408 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : Agent [243724000001] Logged in Successfully, Session Token Created
+
+INFO # 2025-01-30 19:41:26,895 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-30 19:41:26,896 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-30 19:41:27,989 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-30 19:41:27,990 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-30 19:41:27,992 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-30 19:41:27,993 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-30 19:41:28,010 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-30 19:42:03,345 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST
+
+INFO # 2025-01-30 19:42:04,596 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : AUTHORIZED 
+
+INFO # 2025-01-30 19:42:06,921 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : Agent [243724000001] Logged in Successfully, Session Token Created
+
+INFO # 2025-01-30 19:42:08,785 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST
+
+INFO # 2025-01-30 19:42:09,915 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : AUTHORIZED 
+
+INFO # 2025-01-30 19:42:12,237 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : Agent [243724000001] Logged in Successfully, Session Token Created
+
+INFO # 2025-01-30 19:42:14,323 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST
+
+INFO # 2025-01-30 19:42:15,606 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : AUTHORIZED 
+
+INFO # 2025-01-30 19:42:17,890 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.26.229.66:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : Agent [243724000001] Logged in Successfully, Session Token Created
+
+INFO # 2025-01-31 17:03:07,012 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-31 17:03:07,014 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-31 17:03:09,567 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-31 17:03:09,568 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-31 17:03:09,571 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-31 17:03:09,572 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-31 17:03:09,591 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-31 17:05:51,283 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.27.187.79:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST
+
+INFO # 2025-01-31 17:05:54,766 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.27.187.79:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : AUTHORIZED 
+
+INFO # 2025-01-31 17:06:01,429 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.27.187.79:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : Agent [243724000001] Logged in Successfully, Session Token Created
+
+INFO # 2025-01-31 17:06:32,502 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.27.187.79:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST
+
+INFO # 2025-01-31 17:06:34,555 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.27.187.79:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : AUTHORIZED 
+
+INFO # 2025-01-31 17:06:39,310 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.27.187.79:9000/channel/URETAIL/agent/auth/signin/ : AGENT LOGIN REQUEST : Agent [243724000001] Logged in Successfully, Session Token Created
+
+INFO # 2025-01-31 17:09:27,213 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-31 17:09:27,217 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-31 17:09:28,935 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-31 17:09:28,937 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-31 17:09:28,938 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-31 17:09:28,940 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-31 17:09:28,956 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-31 17:10:11,832 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.27.187.79:9000/channel/URETAIL/agent/auth/signin/opt/ : AGENT LOGIN REQUEST
+
+INFO # 2025-01-31 17:10:13,683 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.27.187.79:9000/channel/URETAIL/agent/auth/signin/opt/ : AGENT LOGIN REQUEST : AUTHORIZED 
+
+INFO # 2025-01-31 17:10:18,453 : VSYS-Exchange-DEVEXT-v5 : POST::http://172.27.187.79:9000/channel/URETAIL/agent/auth/signin/opt/ : AGENT LOGIN REQUEST : Agent [243724000001] Logged in Successfully, Session Token Created
+
+INFO # 2025-01-31 19:39:16,023 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-31 19:39:16,025 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-31 19:39:17,274 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-31 19:39:17,275 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-31 19:39:17,276 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-31 19:39:17,277 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-31 19:39:17,293 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-31 19:40:24,291 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-31 19:40:24,293 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-31 19:40:25,411 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-31 19:40:25,412 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-31 19:40:25,414 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-31 19:40:25,415 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-31 19:40:25,434 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-31 19:41:39,173 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+INFO # 2025-01-31 19:41:41,648 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : AUTHORIZED 
+
+ERROR # 2025-01-31 19:41:47,537 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : Agent Balance ChannelAgentBalanceResponseModel(Agent=ChannelAgentBalanceAgentResponseModel(AgentId='676566b861c1f839377400d0', AgentExternalId='243724576420', AgentFullName='Walter White'), SoftWallet=ChannelAgentBalanceSoftWalletResponseModel(BalanceTotal=83500, BalanceAvailable=0, BalanceReserved=83500, BalanceCommission=720))
+NoneType: None
+
+INFO # 2025-01-31 19:41:52,164 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+INFO # 2025-01-31 19:41:53,518 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : AUTHORIZED 
+
+ERROR # 2025-01-31 19:41:56,711 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : Agent Balance ChannelAgentBalanceResponseModel(Agent=ChannelAgentBalanceAgentResponseModel(AgentId='676566b861c1f839377400d0', AgentExternalId='243724576420', AgentFullName='Walter White'), SoftWallet=ChannelAgentBalanceSoftWalletResponseModel(BalanceTotal=83500, BalanceAvailable=0, BalanceReserved=83500, BalanceCommission=720))
+NoneType: None
+
+INFO # 2025-01-31 19:44:13,259 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-31 19:44:13,260 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-31 19:44:16,991 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-31 19:44:16,992 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-31 19:44:16,993 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-31 19:44:16,995 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-31 19:44:17,005 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-31 19:45:17,872 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+INFO # 2025-01-31 19:45:19,348 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : AUTHORIZED 
+
+ERROR # 2025-01-31 19:45:22,205 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 :  Agent Wallet not Found
+NoneType: None
+
+INFO # 2025-01-31 19:45:25,542 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+ERROR # 2025-01-31 19:45:30,549 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : Channel Authentication Failed
+NoneType: None
+
+INFO # 2025-01-31 19:45:32,741 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+INFO # 2025-01-31 19:45:34,395 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : AUTHORIZED 
+
+ERROR # 2025-01-31 19:45:37,438 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 :  Agent Wallet not Found
+NoneType: None
+
+INFO # 2025-01-31 19:45:59,123 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-31 19:45:59,124 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-31 19:46:00,579 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-31 19:46:00,581 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-31 19:46:00,583 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-31 19:46:00,584 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-31 19:46:00,599 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-31 19:46:11,852 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+INFO # 2025-01-31 19:46:13,300 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : AUTHORIZED 
+
+INFO # 2025-01-31 19:46:18,611 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+INFO # 2025-01-31 19:46:21,281 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : AUTHORIZED 
+
+INFO # 2025-01-31 19:46:28,341 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+INFO # 2025-01-31 19:46:29,596 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : AUTHORIZED 
+
+INFO # 2025-01-31 19:46:32,739 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+INFO # 2025-01-31 19:46:35,672 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : AUTHORIZED 
+
+INFO # 2025-01-31 19:46:38,975 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+INFO # 2025-01-31 19:46:40,913 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : AUTHORIZED 
+
+INFO # 2025-01-31 19:46:43,805 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+INFO # 2025-01-31 19:46:45,963 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : AUTHORIZED 
+
+INFO # 2025-01-31 19:46:59,491 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-31 19:46:59,493 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-31 19:47:03,964 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-31 19:47:03,965 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-31 19:47:03,966 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-31 19:47:03,967 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-31 19:47:03,982 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-31 20:19:52,973 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-31 20:19:52,975 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-31 20:19:56,205 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-31 20:19:56,217 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-31 20:19:56,221 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-31 20:19:56,226 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-31 20:19:56,255 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-31 20:20:03,899 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+INFO # 2025-01-31 20:20:06,834 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : AUTHORIZED 
+
+ERROR # 2025-01-31 20:20:11,817 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : Agent Balance ChannelAgentBalanceResponseModel(Agent=ChannelAgentBalanceAgentResponseModel(AgentId='676566b861c1f839377400d0', AgentExternalId='243724576420', AgentFullName='Walter White'), SoftWallet=ChannelAgentBalanceSoftWalletResponseModel(BalanceTotal=83500, BalanceAvailable=0, BalanceReserved=83500, BalanceCommission=720))
+NoneType: None
+
+INFO # 2025-01-31 20:20:32,480 : VSYS-Exchange-DEVEXT-v5 : Configuration and Constants Loaded
+
+INFO # 2025-01-31 20:20:32,484 : VSYS-Exchange-DEVEXT-v5 : Beginning Validation of Startup Arguments
+
+INFO # 2025-01-31 20:20:35,102 : VSYS-Exchange-DEVEXT-v5 : Database Connection Test - Successful (found 40 Data Collections)
+
+INFO # 2025-01-31 20:20:35,104 : VSYS-Exchange-DEVEXT-v5 : TCP Port : 9000
+
+INFO # 2025-01-31 20:20:35,105 : VSYS-Exchange-DEVEXT-v5 : SSL Context : No
+
+INFO # 2025-01-31 20:20:35,106 : VSYS-Exchange-DEVEXT-v5 : Debug : Yes
+
+INFO # 2025-01-31 20:20:35,127 : VSYS-Exchange-DEVEXT-v5 : VSYS - EXCHANGE SERVER (ver. 5.1.0) Server Application - TEST - Started
+
+INFO # 2025-01-31 20:25:17,244 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420
+
+INFO # 2025-01-31 20:25:18,933 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : AUTHORIZED 
+
+ERROR # 2025-01-31 20:25:23,220 : VSYS-Exchange-DEVEXT-v5 : GET::http://172.27.187.79:9000/channel/URETAIL/agent/243724576420/wallet/balance : BUSINESS CHANNEL AGENT BALANCE REQUEST AGENT: 243724576420 : Agent Balance ChannelAgentBalanceResponseModel(Agent=ChannelAgentBalanceAgentResponseModel(AgentId='676566b861c1f839377400d0', AgentExternalId='243724576420', AgentFullName='Walter White'), SoftWallet=ChannelAgentBalanceSoftWalletResponseModel(BalanceTotal=83500, BalanceAvailable=0, BalanceReserved=83500, BalanceCommission=720))
+NoneType: None
