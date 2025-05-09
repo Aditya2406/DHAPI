@@ -143,6 +143,7 @@ def app_db_connect(db_motor_con: AgnosticClient | None = None) -> AgnosticDataba
     dbc: DBConfig = ConfigurationUtils.Configuration.DatabaseConfiguration
     if dbc.DatabaseServerType == DBServerType.MONGO_DB or dbc.DatabaseServerType == DBServerType.MONGO_DB_REPLICA_SET:
         db_con_str = app_db_conn_str(db_config=dbc)
+        db_con_str = "mongodb+srv://admin:admin@dh.max1v2n.mongodb.net/"
         try:
             # ? Check if Database Server Connection is already established
             if db_motor_con is None:
