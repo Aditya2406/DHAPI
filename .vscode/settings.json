@@ -1,0 +1,13 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "pylint.args": [
+        "--class-attribute-naming-style","any",
+        "--class-const-naming-style","UPPER_CASE",
+        "--attr-naming-style","any",
+        "--max-line-length","2048",
+        "--disable","W0223,W0703",
+        "--module-naming-style","any",
+        "--max-module-lines","4056",
+    ],
+    "python.envFile": "${workspaceFolder}/config/srv.env",
+}

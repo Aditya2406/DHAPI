@@ -2,10 +2,10 @@
     "DatabaseConfiguration": {
         "Status": "Active",
         "DatabaseServerType": "MONGO_DB",
-        "Server": "192.168.110.1",
+        "Server": "dh.max1v2n.mongodb.net",
         "ServerPort": 27017,
-        "User": "",
-        "Password": "",
+        "User": "admin",
+        "Password": "admin",
         "Database": "Cache",
         "AuthDatabase": ""
     }

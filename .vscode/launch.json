@@ -1,0 +1,40 @@
+{
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Py Tornado - UnSecured",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "pythonArgs": [
+            ],
+            "args": [
+                "--port=9000",
+                "--debug=True",
+                // "--certificate=",
+                // "--privatekey=",
+                // "--ca_certificate="
+            ]
+        },
+        {
+            "name": "Py Tornado - Secured",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "pythonArgs": [
+            ],
+            "args": [
+                "--port=443",
+                "--debug=True",
+                "--certificate=/ccl/cclSecurity/__sababalar_net/84e4767cbf9c33f8.crt",
+                "--privatekey=/ccl/cclSecurity/__sababalar_net/9f492c08f91e759d.key",
+                "--ca_certificate=/ccl/cclSecurity/__sababalar_net/gd_bundle-g2-g1.crt"
+            ]
+        }
+    ]
+}

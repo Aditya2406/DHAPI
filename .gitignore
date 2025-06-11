@@ -1,0 +1,31 @@
+.env
+# Ignore All PyCache Files
+*.pyc
+
+# Ignore Virtual Environment
+.srvenv
+
+*.cpython-312.pyc
+
+# Ignore All __pycache__
+/__pycache__/*
+
+# Ignore All PyCache Files
+*.pyc
+
+# Ignore Log Files
+AppServer.log
+AppServer.log.*
+/logs
+
+# Ignore Mac Files
+*.DS_Store
+
+# Ignore Jupiter Notebook
+*.ipynb
+
+# Ignore Static Folder
+static/agents_documents
+
+# Ignore Config Folder
+/config
