@@ -13,6 +13,8 @@ class ArtistCreateRequestModel():
     ArtistId: str = field(default_factory=str)
     ArtistName: str = field(default_factory=str)
     ArtistContact: str = field(default_factory=str)
+    ArtistEmail: str = field(default_factory=str)
+    ArtistPassword: str = field(default_factory=str)
     Gender: int = field(default_factory=int)
     BirthDate: str = field(default_factory=str)
     Status: bool = field(default=False)

@@ -83,6 +83,7 @@ class ArtistDataModel(BaseDataModel):
     ArtistId: str = field(default_factory=str)
     ArtistName: str = field(default_factory=str)
     ArtistContact: str = field(default_factory=str)
+    ArtistEmail: str = field(default_factory=str)
     Status: bool = field(default=False)
     Gender: int = field(default=ArtistGender.MALE)
     BirthDate: str = field(default_factory=str)

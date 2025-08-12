@@ -62,7 +62,21 @@ class ArtistHandler(BaseRequestHandler):
                 reason=ExceptionReason.USER,
             )
 
-    async def _create_artist(self, artist_request: ArtistCreateRequestModel, artist_key: str,) -> ArtistDataModel:
+        if artist_request.ArtistPassword == "":
+            raise ApplicationException(
+                message="Invalid Artist Password",
+                severity=ExceptionSeverity.HIGH,
+                reason=ExceptionReason.USER,
+            )
+
+        if artist_request.ArtistEmail == "":
+            raise ApplicationException(
+                message="Invalid Artist Email",
+                severity=ExceptionSeverity.HIGH,
+                reason=ExceptionReason.USER,
+            )
+
+    async def _create_artist(self, artist_request: ArtistCreateRequestModel) -> ArtistDataModel:
         """
         Create artist
         """
@@ -91,7 +105,9 @@ class ArtistHandler(BaseRequestHandler):
         artist_data.ArtistId = artist_request.ArtistId
         artist_data.ArtistName = artist_request.ArtistName
         artist_data.ArtistContact = artist_request.ArtistContact
-        artist_data.Key = encrypt_artist_key(artist_key)
+        artist_data.ArtistEmail = artist_request.ArtistEmail
+
+        artist_data.Key = encrypt_artist_key(artist_request.ArtistPassword)
 
         artist_data.Status = artist_request.Status
 
@@ -208,7 +224,6 @@ class ArtistHandler(BaseRequestHandler):
             return
 
         try:
-            key = core_utils.generate_pin()
             if core_utils.CommonValidators.is_valid_mobile_number(artist_create_request.ArtistId) is False:
                 log_msg = f"{log_msg_heading} : Invalid Artist ID"
                 SystemInsight.logger().warning(log_msg)
@@ -218,8 +233,7 @@ class ArtistHandler(BaseRequestHandler):
                 return
 
             created_artist = await self._create_artist(
-                artist_request=artist_create_request,
-                artist_key=key
+                artist_request=artist_create_request
             )
 
             # Create the artist soft
@@ -236,7 +250,6 @@ class ArtistHandler(BaseRequestHandler):
             _response_data_.ArtistId = created_artist.get_id_str()
             _response_data_.ArtistUserName = created_artist.ArtistName
             _response_data_.Status = created_artist.Status
-            _response_data_.Pin = key
 
             log_msg = f"{log_msg_heading} : Artist [{created_artist}] Created"
             SystemInsight.logger().info(msg=log_msg)
@@ -257,10 +270,10 @@ class ArtistHandler(BaseRequestHandler):
                 inner_excp=exc,
             )
             return
-
     # ! --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     # ! POST Method
     # ! --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
     async def get(self, artist: str = ""):
         """
             Handle Get Call

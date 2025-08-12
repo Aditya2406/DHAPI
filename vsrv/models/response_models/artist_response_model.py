@@ -14,7 +14,6 @@ class NewArtistsResponseModel():
     ArtistId: str = field(default_factory=str)
     ArtistUserName: str = field(default_factory=str)
     Status: bool = field(default_factory=bool)
-    Pin: str = field(default_factory=str)
 
 
 @dataclass()
