@@ -5,6 +5,7 @@ from enum import Enum
 from dataclasses import dataclass, field
 from typing import Final
 from bson import ObjectId
+import bson
 from .base_data_model import BaseDataModel
 from datetime import datetime
 
@@ -103,5 +104,6 @@ class ArtistSessionDataModel(BaseDataModel):
     '''
     SessionId: str = field(default_factory=str)
     ArtistId: str = field(default_factory=str)
+    ArtistOId: bson.ObjectId | None = field(default=None)
     TokenFor: str = field(default_factory=str)
     TokenExpiry: datetime | None = field(default=None)

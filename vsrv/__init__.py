@@ -28,6 +28,7 @@ class DatabaseCollections:
     ARTIST: Final[str] = "Artists"
     ARTIST_SESSION_TOKENS: Final[str] = "ArtistsSessionTokens"
     SOFT_WALLETS: Final[str] = "SoftWallets"
+    RELEASES: Final[str] = "Releases"
 
     # Release: Final[str] = "Release"
 
@@ -90,3 +91,10 @@ class DatabaseCollectionConnectionProvider:
         Get the name of the "BusinessChannels" collection.
         """
         return self.DatabaseConnection.get_collection(DatabaseCollections.SOFT_WALLETS)
+
+    @property
+    def RELEASES(self) -> AgnosticCollection:
+        """
+        Get the name of the "RELEASES" collection.
+        """
+        return self.DatabaseConnection.get_collection(DatabaseCollections.RELEASES)

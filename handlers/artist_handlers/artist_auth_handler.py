@@ -85,6 +85,7 @@ class ArtistAuthHandler(BaseRequestHandler):
         session_data.set_id(bson.ObjectId())
         session_data.ArtistId = artist.ArtistId
         session_data.SessionId = sessionid
+        session_data.ArtistOId = artist.get_id()
         session_data.Created = core_utils.now_utc()
         session_data.CreatedStr = core_utils.now_utc_str()
         session_data.Updated = core_utils.now_utc()
@@ -151,7 +152,8 @@ class ArtistAuthHandler(BaseRequestHandler):
                 reason=ExceptionReason.SYSTEM,
             )
 
-    async def _validate_token(self, token: str) -> ArtistSessionDataModel:
+    @staticmethod
+    async def validate_token(token: str) -> ArtistSessionDataModel:
         """
         Authenticate artist by artistId, Key, and Channel Code
         """
@@ -171,7 +173,36 @@ class ArtistAuthHandler(BaseRequestHandler):
         session_data = ArtistSessionDataModel(**session_data)
 
         if core_utils.is_session_expired(session_data.TokenExpiry):
-            session_data = await self._expire_artist_session(session_data)
+            session_data = await ArtistAuthHandler._expire_artist_session(session_data)
+        return session_data
+
+    @staticmethod
+    async def validate_token_global(token: str) -> ArtistSessionDataModel:
+        """
+        Authenticate artist by artistId, Key, and Channel Code
+        """
+        __db__ = DatabaseCollectionConnectionProvider()
+        dbcoll = __db__.ARTIST_SESSION_TOKENS
+        session_data = await dbcoll.find_one(
+            filter={
+                "_id": bson.ObjectId(token)
+            }
+        )
+        if session_data is None:
+            raise ApplicationException(
+                message="Invalid token",
+                severity=ExceptionSeverity.LOW,
+                reason=ExceptionReason.USER,
+            )
+        session_data = ArtistSessionDataModel(**session_data)
+
+        if core_utils.is_session_expired(session_data.TokenExpiry):
+            data = await ArtistAuthHandler._expire_artist_session(session_data)
+            raise ApplicationException(
+                message="Invalid token",
+                severity=ExceptionSeverity.LOW,
+                reason=ExceptionReason.USER,
+            )
         return session_data
 
     async def post(self):
@@ -268,7 +299,7 @@ class ArtistAuthHandler(BaseRequestHandler):
         SystemInsight.logger().info(log_msg_heading)
 
         try:
-            session = await self._validate_token(token)
+            session = await self.validate_token(token)
 
             _response_data_ = ArtistAuthToken()
             _response_data_.Token = str(session.get_id())

@@ -36,11 +36,14 @@ class BaseRequestHandler(tornado.web.RequestHandler):
         self.AppConfigurationSetting: config_models.ConfigurationModel = self.application.settings[config_keys.APP_CONFIGURATION_KEY]
 
     def prepare(self):
+        self.set_header("Access-Control-Allow-Origin", "*")
+        self.set_header("Access-Control-Allow-Headers", "Content-Type, Authorization")
+        self.set_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
         self.add_header("Access-Control-Allow-Origin", "*")
         self.add_header("Content-Type", "application/json")
-        self.add_header("V-Application", self.AppConstantSetting.Application.Title)
-        self.add_header("V-Application-Version", self.AppConstantSetting.Application.Version)
-        self.add_header("V-Application-Environment", self.AppConstantSetting.Application.Environment)
+        # self.add_header("V-Application", self.AppConstantSetting.Application.Title)
+        # self.add_header("V-Application-Version", self.AppConstantSetting.Application.Version)
+        # self.add_header("V-Application-Environment", self.AppConstantSetting.Application.Environment)
 
     def check_auth_headers(self) -> bool:
         '''

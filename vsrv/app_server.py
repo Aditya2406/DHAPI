@@ -13,6 +13,7 @@ from colorama import Fore
 from handlers.admins_handlers.admin_handler import AdminHandler
 from handlers.artist_handlers.artist_auth_handler import ArtistAuthHandler
 from handlers.artist_handlers.artist_handlers import ArtistHandler
+from handlers.release_handler.release_handler import ReleaseHandler
 from vsrv.utils import config_utils
 from vsrv.models import config_keys
 from vsrv.logging.insight import SystemInsight
@@ -122,4 +123,8 @@ APPLICATION_HANDLERS: Final[List] = [
     # * GET | POST : Login Artist
     (r"/web/artist/login?", ArtistAuthHandler),
     (r"/web/artist/login/([A-Za-z0-9]*)/?", ArtistAuthHandler),
+
+    # ==> Artists
+    # * GET | POST : Create Artist
+    (r"/web/release/create/([A-Za-z0-9]*)/", ReleaseHandler),
 ]

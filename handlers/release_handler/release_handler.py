@@ -5,15 +5,20 @@
 import dataclasses
 import json
 import math
+from platform import release
 from typing import Final
 from http import HTTPStatus
+from bson import ObjectId
 from pymongo.results import InsertOneResult
 import bson
 import bson.json_util
+from handlers.artist_handlers.artist_auth_handler import ArtistAuthHandler
 from handlers.soft_wallet_handler.soft_wallet_handler import SoftWalletTools
 from vsrv import DatabaseCollections, DatabaseCollectionConnectionProvider
-from vsrv.models.data_models.artist_data_model import ArtistDataModel, ArtistGender, ArtistTypes
+from vsrv.models.data_models.artist_data_model import ArtistDataModel, ArtistGender, ArtistSessionDataModel, ArtistTypes
+from vsrv.models.data_models.release_data_model import ReleaseDataModel
 from vsrv.models.request_models.artist_request_model import ArtistCreateRequestModel
+from vsrv.models.request_models.release_create_model import RealeseCreateRequestModel
 from vsrv.models.response_models.artist_response_model import AgentsResponseModel, NewArtistsResponseModel
 from vsrv.net.base_handlers import BaseRequestHandler
 from vsrv.net.body import HTTPBody
@@ -62,63 +67,69 @@ class ReleaseHandler(BaseRequestHandler):
                 reason=ExceptionReason.USER,
             )
 
-    async def _create_artist(self, artist_request: ArtistCreateRequestModel, artist_key: str,) -> ArtistDataModel:
+    async def _create_release(self, release_request: RealeseCreateRequestModel, artist_id: str,) -> ReleaseDataModel:
         """
         Create artist
         """
         # Create artist Data
         __db__ = DatabaseCollectionConnectionProvider()
-        dbcoll = __db__.ARTIST
+        dbcoll = __db__.RELEASES
 
         # check for duplicate
-        existing_artist_data = await dbcoll.find_one(
+        existing_release_data = await dbcoll.find_one(
             filter={
-                "ArtistId": artist_request.ArtistId,
+                "ArtistId": ObjectId(artist_id),
+                "Title": release_request.RealeseName,
                 "Deleted": False,
             }
         )
 
-        if existing_artist_data is not None:
+        if existing_release_data is not None:
             raise ApplicationException(
-                message="Artist Already Exist",
+                message="Release Title Already Exist",
                 severity=ExceptionSeverity.LOW,
                 reason=ExceptionReason.USER,
             )
 
-        artist_data = ArtistDataModel()
-        artist_data.set_id(bson.ObjectId())
-
-        artist_data.ArtistId = artist_request.ArtistId
-        artist_data.ArtistName = artist_request.ArtistName
-        artist_data.ArtistContact = artist_request.ArtistContact
-        artist_data.Key = encrypt_artist_key(artist_key)
-
-        artist_data.Status = artist_request.Status
-
-        artist_data.Gender = artist_request.Gender
-        artist_data.BirthDate = artist_request.BirthDate
-
-        artist_data.GeoLatitude = artist_request.GeoLatitude
-        artist_data.GeoLongitude = artist_request.GeoLongitude
-        artist_data.GeoLocation = artist_request.GeoLocation
-
-        artist_data.Created = core_utils.now_utc()
-        artist_data.CreatedStr = core_utils.now_drc_str()
-        artist_data.Updated = core_utils.now_utc()
-        artist_data.UpdatedStr = core_utils.now_drc_str()
-        artist_data.ArtistType = ArtistTypes.FIELD_ARTIST
+        release_data = ReleaseDataModel()
+        release_data.set_id(bson.ObjectId())
+        release_data.Title = release_request.RealeseName
+        release_data.ReleaseType = release_request.ReleaseType
+        release_data.ArtistId = ObjectId(artist_id)
+        release_data.Created = core_utils.now_utc()
+        release_data.CreatedStr = core_utils.now_drc_str()
+        release_data.Updated = core_utils.now_utc()
+        release_data.UpdatedStr = core_utils.now_drc_str()
 
         artist_insert_result: InsertOneResult = await dbcoll.insert_one(
-            document=dataclasses.asdict(artist_data)
+            document=dataclasses.asdict(release_data)
         )
         if artist_insert_result.acknowledged:
-            return artist_data
+            return release_data
         else:
             raise ApplicationException(
-                message="Unable to create Artist",
+                message="Unable to create Release",
                 severity=ExceptionSeverity.CRITICAL,
                 reason=ExceptionReason.SYSTEM,
             )
+
+    async def _get_artist_release(self, artist_id: str,) -> list:
+        """
+        Create artist
+        """
+        # Create artist Data
+        __db__ = DatabaseCollectionConnectionProvider()
+        dbcoll = __db__.RELEASES
+
+        # check for duplicate
+        release_data = await dbcoll.find(
+            filter={
+                "ArtistId": ObjectId(artist_id),
+                "Deleted": False,
+            }
+        ).to_list()
+
+        return release_data
 
     # ! --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     # ! POST Method
@@ -128,17 +139,18 @@ class ReleaseHandler(BaseRequestHandler):
         """
             Handle Post Call
         """
-        log_msg_heading = f"{self.request.method}::{self.request.full_url()}: {artist} : TRACK CREATE REQUEST"
+        log_msg_heading = f"{self.request.method}::{self.request.full_url()}: {artist} : RELEASE CREATE REQUEST"
         SystemInsight.logger().info(log_msg_heading)
 
         # Check Ticket Data and Save
         post_content = self.request.body
         json_pc = json.loads(post_content)
 
-        artist_create_request: ArtistCreateRequestModel
+        release_create_request: RealeseCreateRequestModel
         try:
-            artist_create_request = ArtistCreateRequestModel(**json_pc)
-            await self.__validate_create_post_request__(artist_request=artist_create_request)
+
+            release_create_request = RealeseCreateRequestModel(**json_pc)
+            # await self.__validate_create_post_request__(artist_request=release_create_request)
         except ApplicationException as aexc:
             log_msg = f"{log_msg_heading} : Unable to Parse Create / Artist Request : {aexc.Message}"
             SystemInsight.logger().exception(msg=log_msg)
@@ -158,51 +170,82 @@ class ReleaseHandler(BaseRequestHandler):
             return
 
         try:
-            key = core_utils.generate_pin()
-            if core_utils.CommonValidators.is_valid_mobile_number(artist_create_request.ArtistId) is False:
-                log_msg = f"{log_msg_heading} : Invalid Artist ID"
+
+            artist_session = await ArtistAuthHandler.validate_token_global(release_create_request.token)
+            if artist_session is None:
+                log_msg = f"{log_msg_heading} : Invalid Token"
                 SystemInsight.logger().warning(log_msg)
                 self.not_ok(
-                    msg="Invalid Artist ID", http_status=HTTPStatus.BAD_REQUEST
+                    msg="Invalid Token", http_status=HTTPStatus.UNAUTHORIZED
                 )
                 return
-
-            created_artist = await self._create_artist(
-                artist_request=artist_create_request,
-                artist_key=key
-            )
-
-            # Create the artist soft
-            __artist_new_soft_wallet__ = (
-                await SoftWalletTools.create_soft_wallet_for_artist_async(
-                    artist_info=created_artist, method_msg=log_msg_heading
-                )
-            )
-            if __artist_new_soft_wallet__ is not None:
-                log_msg = f"{log_msg_heading} : Artist ID: {created_artist.ArtistName} : Soft Wallet Created"
-                SystemInsight.logger().info(log_msg)
-
-            _response_data_ = NewArtistsResponseModel()
-            _response_data_.ArtistId = created_artist.get_id_str()
-            _response_data_.ArtistUserName = created_artist.ArtistName
-            _response_data_.Status = created_artist.Status
-            _response_data_.Pin = key
-
-            log_msg = f"{log_msg_heading} : Artist [{created_artist}] Created"
-            SystemInsight.logger().info(msg=log_msg)
+            # create realese
+            await self._create_release(release_request=release_create_request, artist_id=str(artist_session.ArtistOId))
             self.set_status(HTTPStatus.OK)
             _response_ = HTTPBody(
                 status_code_=HTTPStatus.OK,
-                status_message_="Artist Created Successfully",
-                data=dataclasses.asdict(_response_data_),
+                status_message_="Release  Created Successfully",
+                data={},
             )
             self.write(_response_.body())
 
         except Exception as exc:
-            log_msg = f"{log_msg_heading} : Unable to Process Create  Artist Request : {str(exc)}"
+            log_msg = f"{log_msg_heading} : Unable to Process Create  Release Request : {str(exc)}"
             SystemInsight.logger().exception(msg=log_msg)
             self.not_ok(
-                msg="Unable to Process Create Artist Request ",
+                msg="Unable to Process Release Artist Request ",
+                http_status=HTTPStatus.BAD_REQUEST,
+                inner_excp=exc,
+            )
+            return
+
+    async def get(self, artist: str = ""):
+        """
+            Handle Get Call
+        """
+        log_msg_heading = f"{self.request.method}::{self.request.full_url()}"
+        if artist is not None and artist != "":
+            log_msg_heading = (
+                f"{log_msg_heading} : {artist} : GET ARTISTS Release REQUEST"
+            )
+        else:
+            log_msg_heading = f"{log_msg_heading} : NEW ARTISTS Release REQUEST"
+        # --
+        SystemInsight.logger().info(log_msg_heading)
+
+        try:
+            if artist != "":
+                releases = await self._get_artist_release(artist_id=artist)
+                self.set_status(HTTPStatus.OK)
+                _response_ = HTTPBody(
+                    status_code_=HTTPStatus.OK,
+                    status_message_="Artist Releases Retrieved Successfully",
+                    data=json.loads(bson.json_util.dumps(releases)),
+                )
+                self.write(_response_.body())
+                return
+            else:
+                log_msg = f"{log_msg_heading} : Unable to Get Artists Request : Please provide valid Arist Id"
+                SystemInsight.logger().exception(msg=log_msg)
+                self.not_ok(
+                    msg="Please provide valid Arist Id",
+                    http_status=HTTPStatus.BAD_REQUEST,
+                )
+                return
+
+        except ApplicationException as aexc:
+            log_msg = f"{log_msg_heading} : Unable to Get Artist : {aexc.Message}"
+            SystemInsight.logger().exception(msg=log_msg)
+            self.not_ok(
+                msg=f"Unable to Get Artist : {aexc.Message}",
+                http_status=HTTPStatus.BAD_REQUEST,
+            )
+            return
+        except Exception as exc:
+            log_msg = f"{log_msg_heading} : Unable to Get Artists Request : {str(exc)}"
+            SystemInsight.logger().exception(msg=log_msg)
+            self.not_ok(
+                msg="Unable to Get Artists Request ",
                 http_status=HTTPStatus.BAD_REQUEST,
                 inner_excp=exc,
             )
